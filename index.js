@@ -1,4 +1,6 @@
 const express = require("express");
+const Product = require("./products/model");
+const Categorie = require("./categories/model");
 
 const port = 4000;
 

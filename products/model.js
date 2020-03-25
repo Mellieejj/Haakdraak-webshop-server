@@ -1,5 +1,6 @@
-const Sequelize = require("sequelize")
-const db = require("../db")
+const Sequelize = require("sequelize");
+const db = require("../db");
+const Categorie = require("../categories/model");
 
 const Product = db.define(
   "product",
@@ -20,12 +21,23 @@ const Product = db.define(
     stockAmount: {
       type: Sequelize.INTEGER
     }
-    // categorieId ??
+    // categorieId: {
+    //   type: Sequelize.INTEGER,
+    //   allowNull: false,
+    //   references: {
+    //     model: "Categories",
+    //     key: "id"
+    //   }
+    // }
   },
   {
     timestamps: false,
     tableName: "products"
   }
-)
+);
 
-module.exports = Product
+Product.belongsTo(Categorie);
+
+Categorie.hasMany(Product);
+
+module.exports = Product;
