@@ -21,14 +21,6 @@ const Product = db.define(
     stockAmount: {
       type: Sequelize.INTEGER
     }
-    // categorieId: {
-    //   type: Sequelize.INTEGER,
-    //   allowNull: false,
-    //   references: {
-    //     model: "Categories",
-    //     key: "id"
-    //   }
-    // }
   },
   {
     timestamps: false,
