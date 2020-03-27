@@ -1,5 +1,6 @@
 const express = require("express");
 const productRouter = require("./products/router");
+const orderRouter = require("./orders/router")
 const cors = require("cors");
 
 const app = express();
@@ -11,6 +12,7 @@ const bodyParser = express.json();
 app.use(bodyParser);
 
 app.use(productRouter);
+app.use(orderRouter)
 
 const port = 4000;
 
