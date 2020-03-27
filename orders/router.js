@@ -26,8 +26,6 @@ router.post("/orders", async (request, response, next) => {
         order.addProduct(item.id, { through: { quantity: item.quantity } })
       )
     );
-
-    // need items id & quantity per item(this one is only created at front end)
   } catch (error) {
     next(error);
   }
