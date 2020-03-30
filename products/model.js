@@ -3,6 +3,7 @@ const db = require("../db");
 const Categorie = require("../categories/model");
 const Order = require("../orders/model");
 const OrderProducts = require("../orderProducts/model");
+const ProductImage = require("../productImages/model");
 
 const Product = db.define(
   "product",
@@ -39,6 +40,9 @@ const Product = db.define(
 );
 
 Product.belongsTo(Categorie);
+
+Product.hasMany(ProductImage)
+ProductImage.belongsTo(Product)
 
 Categorie.hasMany(Product);
 

@@ -1,6 +1,7 @@
 const { Router } = require("express");
 const Product = require("./model");
 const Categorie = require("../categories/model");
+const ProductImage = require("../productImages/model");
 const router = Router();
 
 router.get("/products", (request, response, next) => {
@@ -25,7 +26,9 @@ router.get("/products", (request, response, next) => {
 // });
 
 router.get("/products/:productId", (request, response, next) => {
-  Product.findByPk(request.params.productId, { include: [Categorie] })
+  Product.findByPk(request.params.productId, {
+    include: [Categorie, ProductImage]
+  })
     .then(product => {
       if (!product) {
         response.status(404).end();

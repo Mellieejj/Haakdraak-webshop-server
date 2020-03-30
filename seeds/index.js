@@ -1,6 +1,6 @@
 const Product = require("../products/model");
 const Categorie = require("../categories/model");
-
+const ProductImage = require("../productImages/model");
 async function seedDataBase() {
   const rammelaar = await Categorie.create({
     name: "Bijtringen & Rammelaars"
@@ -22,7 +22,7 @@ async function seedDataBase() {
     name: "Overige"
   });
 
-  Product.create({
+  const bijtringAbel = await Product.create({
     name: "Bijtring/Rammelaar Aap Abel",
     price: "12.50",
     description:
@@ -34,7 +34,7 @@ async function seedDataBase() {
     categorieId: rammelaar.id
   });
 
-  Product.create({
+  const bijtringVos = await Product.create({
     name: "Bijtring/Rammelaar Vos",
     price: "12.50",
     description:
@@ -46,7 +46,7 @@ async function seedDataBase() {
     categorieId: rammelaar.id
   });
 
-  Product.create({
+  const bijtringWasbeer = await Product.create({
     name: "Bijtring/Rammelaar Wasbeer",
     price: "12.50",
     description:
@@ -58,7 +58,7 @@ async function seedDataBase() {
     categorieId: rammelaar.id
   });
 
-  Product.create({
+  const speenDraak = await Product.create({
     name: "Speenknuffel Draak",
     price: "15.00",
     description:
@@ -70,7 +70,7 @@ async function seedDataBase() {
     categorieId: babyOverig.id
   });
 
-  Product.create({
+  const speenGiraf = await Product.create({
     name: "Speenkoord Giraf",
     price: "12.50",
     description:
@@ -82,7 +82,7 @@ async function seedDataBase() {
     categorieId: babyOverig.id
   });
 
-  Product.create({
+  const mike = await Product.create({
     name: "Grote Aap",
     price: "40.00",
     description:
@@ -94,7 +94,7 @@ async function seedDataBase() {
     categorieId: knuffels.id
   });
 
-  Product.create({
+  const huski = await Product.create({
     name: "Huski",
     price: "22.50",
     description:
@@ -106,7 +106,7 @@ async function seedDataBase() {
     categorieId: knuffels.id
   });
 
-  Product.create({
+  const sleutelSmiley = await Product.create({
     name: "Sleutelhanger Smileypoppetje",
     price: "2.50",
     description:
@@ -117,7 +117,7 @@ async function seedDataBase() {
     categorieId: sleutelhangers.id
   });
 
-  Product.create({
+  const sleutelEend = await Product.create({
     name: "Sleutelhanger Eend",
     price: "7.50",
     description:
@@ -129,7 +129,7 @@ async function seedDataBase() {
     categorieId: sleutelhangers.id
   });
 
-  Product.create({
+  const sleutelPinguin = await Product.create({
     name: "Sleutelhanger Pinguin",
     price: "7.50",
     description:
@@ -141,7 +141,7 @@ async function seedDataBase() {
     categorieId: sleutelhangers.id
   });
 
-  Product.create({
+  const doekjeDraak = await Product.create({
     name: "Knuffeldoekje Draak",
     price: "20.00",
     description:
@@ -153,7 +153,7 @@ async function seedDataBase() {
     categorieId: babyOverig.id
   });
 
-  Product.create({
+  const speenAap = await Product.create({
     name: "Speenknuffel Aap",
     price: "15.00",
     description:
@@ -165,7 +165,7 @@ async function seedDataBase() {
     categorieId: babyOverig.id
   });
 
-  Product.create({
+  const speenKonijn = await Product.create({
     name: "Speenknuffel Konijn",
     price: "15.00",
     description:
@@ -177,7 +177,7 @@ async function seedDataBase() {
     categorieId: babyOverig.id
   });
 
-  Product.create({
+  const bijtringKoala = await Product.create({
     name: "Bijtring/Rammelaar Koala",
     price: "12.50",
     description:
@@ -188,6 +188,13 @@ async function seedDataBase() {
     stock: 0,
     categorieId: babyOverig.id
   });
-}
 
+  ProductImage.create({
+    url: "https://haakdraak.nl/afbeeldingen/Abel_Groot.jpg",
+    active: true,
+    productId: bijtringAbel.id
+  });
+
+  
+}
 seedDataBase();
