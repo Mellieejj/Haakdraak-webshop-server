@@ -190,16 +190,32 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/afbeeldingen/Abel_Groot.jpg",
+    url: "https://haakdraak.nl/Test/afbeeldingen/bijtringAapAbel.jpg",
     active: true,
     productId: bijtringAbel.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/afbeeldingen/Abel_Groot.jpg",
+    url: "https://haakdraak.nl/Test/afbeeldingen/bijtringVosFelix.jpg",
     active: true,
-    productId: bijtringAbel.id
+    productId: bijtringVos.id
   });
 
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/bijtringWasbeer.jpg",
+    active: true,
+    productId: bijtringWasbeer.id
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu1.jpg",
+    active: true,
+    productId: speenAap.id
+  });
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu2.jpg",
+    active: true,
+    productId: speenAap.id
+  });
 }
 seedDataBase();
