@@ -190,32 +190,316 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtringAapAbel.jpg",
+    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-abel/bijt-abel.jpg",
     active: true,
     productId: bijtringAbel.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtringVosFelix.jpg",
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/bijtring-abel/bijtringAapAbel_size.jpg",
     active: true,
-    productId: bijtringVos.id
+    productId: bijtringAbel.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtringWasbeer.jpg",
+    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-koala/bijt-koala.jpg",
+    active: true,
+    productId: bijtringKoala.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/bijtring-koala/bijtringKoala_size.jpg",
+    active: true,
+    productId: bijtringKoala.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/bijtring-wasbeer/bijt-wasbeer.jpg",
     active: true,
     productId: bijtringWasbeer.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu1.jpg",
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/bijtring-wasbeer/bijtringWasbeer_size.jpg",
+    active: true,
+    productId: bijtringWasbeer.id
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-vos/bijt-vos.jpg",
+    active: true,
+    productId: bijtringVos.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/bijtring-vos/bijtringVosFelix_size.jpg",
+    active: true,
+    productId: bijtringVos.id
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/huski/knuf-huski.jpg",
+    active: true,
+    productId: huski.id
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/huski/huski_size.jpg",
+    active: true,
+    productId: huski.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/speen-aap.jpg",
     active: true,
     productId: speenAap.id
   });
+
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu2.jpg",
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu1_size.jpg",
     active: true,
     productId: speenAap.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu2_size.jpg",
+    active: true,
+    productId: speenAap.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak.jpg",
+    active: true,
+    productId: speenDraak.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak1_size.jpg",
+    active: true,
+    productId: speenDraak.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak2_size.jpg",
+    active: true,
+    productId: speenDraak.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak3_size.jpg",
+    active: true,
+    productId: speenDraak.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenkoord-giraf/speen-giraf.jpg",
+    active: true,
+    productId: speenGiraf.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenkoord-giraf/speen-giraf_size.jpg",
+    active: true,
+    productId: speenGiraf.id
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike.jpg",
+    active: true,
+    productId: mike.id
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike1_size.jpg",
+    active: true,
+    productId: mike.id
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike2_size.jpg",
+    active: true,
+    productId: mike.id
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike3_size.jpg",
+    active: true,
+    productId: mike.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile1.jpg",
+    active: true,
+    productId: sleutelSmiley.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile2_size.jpg",
+    active: true,
+    productId: sleutelSmiley.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile3_size.jpg",
+    active: true,
+    productId: sleutelSmiley.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile4_size.jpg",
+    active: true,
+    productId: sleutelSmiley.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile5_size.jpg",
+    active: true,
+    productId: sleutelSmiley.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile6_size.jpg",
+    active: true,
+    productId: sleutelSmiley.id
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-enzo.jpg",
+    active: true,
+    productId: sleutelEend.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-eend1_size.jpg",
+    active: true,
+    productId: sleutelEend.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-eend2_size.jpg",
+    active: true,
+    productId: sleutelEend.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pingu.jpg",
+    active: true,
+    productId: sleutelPinguin.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin1_size.jpg",
+    active: true,
+    productId: sleutelPinguin.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin2_size.jpg",
+    active: true,
+    productId: sleutelPinguin.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin3_size.jpg",
+    active: true,
+    productId: sleutelPinguin.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin4_size.jpg",
+    active: true,
+    productId: sleutelPinguin.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak.jpg",
+    active: true,
+    productId: doekjeDraak.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak1_size.jpg",
+    active: true,
+    productId: doekjeDraak.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak2_size.jpg",
+    active: true,
+    productId: doekjeDraak.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak3_size.jpg",
+    active: true,
+    productId: doekjeDraak.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak4_size.jpg",
+    active: true,
+    productId: doekjeDraak.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-kim.jpg",
+    active: true,
+    productId: speenKonijn.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn_size.jpg",
+    active: true,
+    productId: speenKonijn.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn1_size.jpg",
+    active: true,
+    productId: speenKonijn.id
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn2_size.jpg",
+    active: true,
+    productId: speenKonijn.id
   });
 }
+
 seedDataBase();
