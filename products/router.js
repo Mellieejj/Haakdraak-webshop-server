@@ -5,7 +5,7 @@ const ProductImage = require("../productImages/model");
 const router = Router();
 
 router.get("/products", (request, response, next) => {
-  Product.findAll()
+  Product.findAll({ include: [Categorie, ProductImage] })
     .then(product => response.json(product))
     .catch(next);
 });

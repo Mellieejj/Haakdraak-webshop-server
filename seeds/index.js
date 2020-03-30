@@ -195,6 +195,11 @@ async function seedDataBase() {
     productId: bijtringAbel.id
   });
 
-  
+  ProductImage.create({
+    url: "https://haakdraak.nl/afbeeldingen/Abel_Groot.jpg",
+    active: true,
+    productId: bijtringAbel.id
+  });
+
 }
 seedDataBase();
