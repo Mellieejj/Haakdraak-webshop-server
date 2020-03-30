@@ -16,11 +16,19 @@ const Product = db.define(
       type: Sequelize.STRING,
       allowNull: false
     },
-    img: {
+    description: {
+      type: Sequelize.TEXT,
+      allowNull: false
+    },
+    size: {
       type: Sequelize.STRING,
       allownNull: false
     },
-    stockAmount: {
+    optioneel: {
+      type: Sequelize.TEXT,
+      allowNull: false
+    },
+    stock: {
       type: Sequelize.INTEGER
     }
   },
