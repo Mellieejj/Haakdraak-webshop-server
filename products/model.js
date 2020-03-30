@@ -16,10 +16,6 @@ const Product = db.define(
       type: Sequelize.STRING,
       allowNull: false
     },
-    img: {
-      type: Sequelize.STRING,
-      allownNull: false
-    },
     description: {
       type: Sequelize.TEXT,
       allowNull: false
@@ -28,7 +24,7 @@ const Product = db.define(
       type: Sequelize.STRING,
       allownNull: false
     },
-    optioneel:{
+    optioneel: {
       type: Sequelize.TEXT,
       allowNull: false
     },

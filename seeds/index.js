@@ -25,7 +25,6 @@ async function seedDataBase() {
   Product.create({
     name: "Bijtring/Rammelaar Aap Abel",
     price: "12.50",
-    img: "https://haakdraak.nl/afbeeldingen/bijt-abel.jpg",
     description:
       "Bijtring van een apenkop met een rammelkraal erin. Deze aap is gemaakt van zacht knuffelgaren en katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
@@ -38,7 +37,6 @@ async function seedDataBase() {
   Product.create({
     name: "Bijtring/Rammelaar Vos",
     price: "12.50",
-    img: "https://haakdraak.nl/afbeeldingen/bijt-vos.jpg",
     description:
       "Bijtring van een vos met een staart. In het hoofdje zit een rammelkraal. Deze vos is gemaakt katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
@@ -51,7 +49,6 @@ async function seedDataBase() {
   Product.create({
     name: "Bijtring/Rammelaar Wasbeer",
     price: "12.50",
-    img: "https://haakdraak.nl/afbeeldingen/bijt-wasbeer.JPG",
     description:
       "Bijtring van een wasbeer. In het hoofdje zit een rammelkraal. Deze wasbeer is gemaakt katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
@@ -64,7 +61,6 @@ async function seedDataBase() {
   Product.create({
     name: "Speenknuffel Draak",
     price: "15.00",
-    img: "https://haakdraak.nl/afbeeldingen/speen-draak.jpg",
     description:
       "Dit is een plat knuffeltje, waar de kleinste graag mee knuffelen en ze raken niet meer zo makkelijk het speentje kwijt. Het speentje wordt bevestigd door om het handje te vouwen en het drukkertje dicht te doen. Deze is gemaakt van zacht knuffelgaren. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "18cm",
@@ -77,7 +73,6 @@ async function seedDataBase() {
   Product.create({
     name: "Speenkoord Giraf",
     price: "12.50",
-    img: "https://haakdraak.nl/afbeeldingen/speen-giraf.jpg",
     description:
       "Speenkoord om een speentje aan te bevestigen. Het lusje is van waxkoord gemaakt, er zit een mooie houten speenclip op. De giraf is gehaakt met katoen",
     size: "18cm",
@@ -90,7 +85,6 @@ async function seedDataBase() {
   Product.create({
     name: "Grote Aap",
     price: "40.00",
-    img: "https://haakdraak.nl/afbeeldingen/knuf-mike.jpg",
     description:
       "Grote Aap gemaakt van een dikkere katoendraad. Zittend is deze leuke aap 30cm, liggend gemeten vanaf de voeten tot het hoofd is hij maar liefst 60cm. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "30cm",
@@ -103,7 +97,6 @@ async function seedDataBase() {
   Product.create({
     name: "Huski",
     price: "22.50",
-    img: "https://haakdraak.nl/afbeeldingen/knuf-huski.jpg",
     description:
       "Huski gemaakt van een dikkere katoendraad. Liggend gemeten is hij 30cm groot en zitten ongeveer 22cm. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "22cm",
@@ -116,7 +109,6 @@ async function seedDataBase() {
   Product.create({
     name: "Sleutelhanger Smileypoppetje",
     price: "2.50",
-    img: "https://haakdraak.nl/afbeeldingen/sleutel-smile1.jpg",
     description:
       "Vrolijke sleutelhanger met een houten smileykraal, in het lijfje is gehaakt met katoen, er zit een houten kraal in. In bijna alle kleuren mogelijk! Vermeld bij de opmerkingen even de kleur die u wilt.",
     size: "4cm",
@@ -128,7 +120,6 @@ async function seedDataBase() {
   Product.create({
     name: "Sleutelhanger Eend",
     price: "7.50",
-    img: "https://haakdraak.nl/afbeeldingen/sleutel-enzo.jpg",
     description:
       "Sleutelhanger Eend gehaakt met katoengaren. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "9cm",
@@ -141,7 +132,6 @@ async function seedDataBase() {
   Product.create({
     name: "Sleutelhanger Pinguin",
     price: "7.50",
-    img: "https://haakdraak.nl/afbeeldingen/sleutel-pingu1.jpg",
     description:
       "Sleutelhanger Pinguin gehaakt met katoengaren. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "7cm",
@@ -154,7 +144,6 @@ async function seedDataBase() {
   Product.create({
     name: "Knuffeldoekje Draak",
     price: "20.00",
-    img: "https://haakdraak.nl/afbeeldingen/doek-draak.JPG",
     description:
       "Dit knuffeldoekje is gehaakt met zacht knuffelgaren. Het doekje is ongeveer 35 x 35 cm. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "35cm",
@@ -167,7 +156,6 @@ async function seedDataBase() {
   Product.create({
     name: "Speenknuffel Aap",
     price: "15.00",
-    img: "https://haakdraak.nl/afbeeldingen/speen-aap2.jpg",
     description:
       "Dit is een plat knuffeltje, waar de kleinste graag mee knuffelen en ze raken niet meer zo makkelijk het speentje kwijt. Het speentje wordt bevestigd door om het handje te vouwen en het drukkertje dicht te doen. Deze is gemaakt van zacht knuffelgaren en katoen. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "18cm",
@@ -180,7 +168,6 @@ async function seedDataBase() {
   Product.create({
     name: "Speenknuffel Konijn",
     price: "15.00",
-    img: "https://haakdraak.nl/afbeeldingen/speen-kim.jpg",
     description:
       "Dit is een plat knuffeltje, waar de kleinste graag mee knuffelen en ze raken niet meer zo makkelijk het speentje kwijt. Het speentje wordt bevestigd door om het handje te vouwen en het drukkertje dicht te doen. Deze is gemaakt van zacht knuffelgaren en katoen. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "18cm",
@@ -193,7 +180,6 @@ async function seedDataBase() {
   Product.create({
     name: "Bijtring/Rammelaar Koala",
     price: "12.50",
-    img: "https://haakdraak.nl/afbeeldingen/bijt-koala.jpg",
     description:
       "Bijtring van een koala met een rammelkraal erin. Deze koala is gemaakt van katoengaren, in de oortjes die een klein stukje zacht knuffelgaren. De bijtring is van hout. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "10cm",
