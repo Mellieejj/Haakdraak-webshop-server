@@ -6,28 +6,74 @@ const router = Router();
 
 router.post("/orders", async (request, response, next) => {
   try {
-    const newOrder = {
-      firstName: request.body.form.firstName,
-      lastName: request.body.form.lastName,
-      email: request.body.form.email,
-      street: request.body.form.street,
-      housenr: request.body.form.housenr,
-      postcode: request.body.form.postcode,
-      city: request.body.form.city,
-      opmerkingen: request.body.form.opmerkingen
-    };
-    const order = await Order.create(newOrder);
+    const {
+      firstName,
+      lastName,
+      email,
+      street,
+      housenr,
+      postcode,
+      city,
+      opmerkingen
+    } = request.body.form;
 
-    console.log(request.body.items);
+    if (
+      request.body.items.length === 0 &&
+      (!firstName ||
+        !lastName ||
+        !email ||
+        !street ||
+        !housenr ||
+        !postcode ||
+        !city)
+    ) {
+      return response.status(400).send({
+        message:
+          "Winkelwagen is leeg & het formulier is niet volledig ingevuld."
+      });
+    } else if (request.body.items.length === 0) {
+      return response.status(400).send({
+        message: "Winkelwagen is leeg!"
+      });
+    } else if (
+      !firstName ||
+      !lastName ||
+      !email ||
+      !street ||
+      !housenr ||
+      !postcode ||
+      !city
+    ) {
+      return response.status(400).send({
+        message: "Formulier was niet volledig ingevuld"
+      });
+    } else {
+      const newOrder = {
+        firstName: firstName,
+        lastName: lastName,
+        email: email,
+        street: street,
+        housenr: housenr,
+        postcode: postcode,
+        city: city,
+        opmerkingen: opmerkingen
+      };
+      const order = await Order.create(newOrder);
 
-    // response.send(request.body.items.map(item => order.addProduct(item.id)));
-    response.send(
-      request.body.items.map(item =>
-        order.addProduct(item.id, { through: { quantity: item.quantity } })
-      )
-    );
+      // console.log(request.body.items);
+      response.status(200).send(
+        request.body.items.map(item =>
+          order.addProduct(item.id, {
+            through: { quantity: item.quantity }
+          })
+        )
+      );
+    }
   } catch (error) {
-    next(error);
+    response.status(500).send({
+      message: "U heeft niet alle gegevens ingevuld."
+    });
+    // next(error);
   }
 });
 

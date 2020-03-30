@@ -32,9 +32,8 @@ const Order = db.define(
       type: Sequelize.STRING,
       allowNull: false
     },
-    Opmerkingen: {
-      type: Sequelize.TEXT,
-      allowNull: true
+    opmerkingen: {
+      type: Sequelize.TEXT
     }
   },
   {
