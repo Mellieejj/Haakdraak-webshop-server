@@ -13,6 +13,7 @@ HaakDraak is made to show my creations I made crocheting. I now create a webshop
 - [Project Goals](#project-goals)
 - [Demo](#demo)
 - [User stories](#user-stories)
+- [Wireframe](#wireframe)
 - [Used technology](#used-technology)
 - [Git workflow](#git-workflow)
 
@@ -43,6 +44,10 @@ My goals for this project are building an fullstack app I like to make, using te
 - As Admin user I want to login to see all the orders and edit (change status, or add/change products)
 
 -- :computer: I'm still working on my app to improve and finish all my user stories, probaly make more features. --
+
+## Wireframe
+
+![wireframe](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/Cc7d365d3425637f38ac9773088d4ac09/projects/M74581b609e4f9a7749d60e971d820d031585041390639/pages/D3af5feb6f18aaca359e3178c13cb877e/image/D3af5feb6f18aaca359e3178c13cb877e.png)
 
 ## Used Technology
 
