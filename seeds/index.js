@@ -476,694 +476,694 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-abel/bijt-abel.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/bijtring-abel/bijt-abel.jpg",
     active: true,
     productId: bijtringAbel.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-abel/bijtringAapAbel_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-abel/bijtringAapAbel_size.jpg",
     active: true,
     productId: bijtringAbel.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-koala/bijt-koala.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/bijtring-koala/bijt-koala.jpg",
     active: true,
     productId: bijtringKoala.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-koala/bijtringKoala_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-koala/bijtringKoala_size.jpg",
     active: true,
     productId: bijtringKoala.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-wasbeer/bijt-wasbeer.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-wasbeer/bijt-wasbeer.jpg",
     active: true,
     productId: bijtringWasbeer.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-wasbeer/bijtringWasbeer_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-wasbeer/bijtringWasbeer_size.jpg",
     active: true,
     productId: bijtringWasbeer.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-vos/bijt-vos.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/bijtring-vos/bijt-vos.jpg",
     active: true,
     productId: bijtringVos.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-vos/bijtringVosFelix_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-vos/bijtringVosFelix_size.jpg",
     active: true,
     productId: bijtringVos.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/huski/knuf-huski.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/huski/knuf-huski.jpg",
     active: true,
     productId: huski.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/huski/huski_size.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/huski/huski_size.jpg",
     active: true,
     productId: huski.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/speen-aap.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/speen-aap.jpg",
     active: true,
     productId: speenAap.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu1_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu1_size.jpg",
     active: true,
     productId: speenAap.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu2_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu2_size.jpg",
     active: true,
     productId: speenAap.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak.jpg",
     active: true,
     productId: speenDraak.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak1_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak1_size.jpg",
     active: true,
     productId: speenDraak.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak2_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak2_size.jpg",
     active: true,
     productId: speenDraak.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak3_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak3_size.jpg",
     active: true,
     productId: speenDraak.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenkoord-giraf/speen-giraf.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenkoord-giraf/speen-giraf.jpg",
     active: true,
     productId: speenGiraf.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenkoord-giraf/speen-giraf_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenkoord-giraf/speen-giraf_size.jpg",
     active: true,
     productId: speenGiraf.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike.jpg",
     active: true,
     productId: mike.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike1_size.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike1_size.jpg",
     active: true,
     productId: mike.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike2_size.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike2_size.jpg",
     active: true,
     productId: mike.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike3_size.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike3_size.jpg",
     active: true,
     productId: mike.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile1.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile1.jpg",
     active: true,
     productId: sleutelSmiley.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile2_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile2_size.jpg",
     active: true,
     productId: sleutelSmiley.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile3_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile3_size.jpg",
     active: true,
     productId: sleutelSmiley.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile4_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile4_size.jpg",
     active: true,
     productId: sleutelSmiley.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile5_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile5_size.jpg",
     active: true,
     productId: sleutelSmiley.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile6_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile6_size.jpg",
     active: true,
     productId: sleutelSmiley.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-enzo.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-enzo.jpg",
     active: true,
     productId: sleutelEend.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-eend1_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-eend1_size.jpg",
     active: true,
     productId: sleutelEend.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-eend2_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-eend2_size.jpg",
     active: true,
     productId: sleutelEend.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pingu.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pingu.jpg",
     active: true,
     productId: sleutelPinguin.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin1_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin1_size.jpg",
     active: true,
     productId: sleutelPinguin.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin2_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin2_size.jpg",
     active: true,
     productId: sleutelPinguin.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin3_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin3_size.jpg",
     active: true,
     productId: sleutelPinguin.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin4_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin4_size.jpg",
     active: true,
     productId: sleutelPinguin.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak.jpg",
     active: true,
     productId: doekjeDraak.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak1_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak1_size.jpg",
     active: true,
     productId: doekjeDraak.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak2_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak2_size.jpg",
     active: true,
     productId: doekjeDraak.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak3_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak3_size.jpg",
     active: true,
     productId: doekjeDraak.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak4_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak4_size.jpg",
     active: true,
     productId: doekjeDraak.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-kim.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-kim.jpg",
     active: true,
     productId: speenKonijn.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn_size.jpg",
     active: true,
     productId: speenKonijn.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn1_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn1_size.jpg",
     active: true,
     productId: speenKonijn.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn2_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn2_size.jpg",
     active: true,
     productId: speenKonijn.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-koe/bijt-koe.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/bijtring-koe/bijt-koe.jpg",
     active: true,
     productId: bijtringKoe.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-koe/bijt-koe_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-koe/bijt-koe_size.jpg",
     active: true,
     productId: bijtringKoe.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-varken/bijt-varken.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-varken/bijt-varken.jpg",
     active: true,
     productId: bijtringVarken.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-varken/bijt-varken_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-varken/bijt-varken_size.jpg",
     active: true,
     productId: bijtringVarken.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-hert/bijt-hert.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/bijtring-hert/bijt-hert.jpg",
     active: true,
     productId: bijtringHert.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-hert/bijt-hert_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-hert/bijt-hert_size.jpg",
     active: true,
     productId: bijtringHert.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-eenhoorn/bijt-eenhoorn.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-eenhoorn/bijt-eenhoorn.jpg",
     active: true,
     productId: bijtringEenhoorn.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-eenhoorn/bijt-eenhoorn_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-eenhoorn/bijt-eenhoorn_size.jpg",
     active: true,
     productId: bijtringEenhoorn.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-triceratops/bijt-triceratops.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-triceratops/bijt-triceratops.jpg",
     active: true,
     productId: bijtringTriceratops.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-triceratops/bijt-triceratops_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-triceratops/bijt-triceratops_size.jpg",
     active: true,
     productId: bijtringTriceratops.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-nijlpaard/bijt-nijlpaard.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-nijlpaard/bijt-nijlpaard.jpg",
     active: true,
     productId: bijtringNijlpaard.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-nijlpaard/bijt-nijlpaard_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-nijlpaard/bijt-nijlpaard_size.jpg",
     active: true,
     productId: bijtringNijlpaard.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-gele-olifant.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-gele-olifant.jpg",
     active: true,
     productId: kralenSilOlifant.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-gele-olifant_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-gele-olifant_size.jpg",
     active: true,
     productId: kralenSilOlifant.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-olifant1.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-olifant1.jpg",
     active: true,
     productId: kralenOlifant.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-olifant_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-olifant_size.jpg",
     active: true,
     productId: kralenOlifant.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-vos.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-vos.jpg",
     active: true,
     productId: kralenVos.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-vos_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-vos_size.jpg",
     active: true,
     productId: kralenVos.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-pingu.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-pingu.jpg",
     active: true,
     productId: kralenPinguin.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-pingu_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-pingu_size.jpg",
     active: true,
     productId: kralenPinguin.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-cupcake.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-cupcake.jpg",
     active: true,
     productId: kralenCupcake.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-cupcake_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-cupcake_size.jpg",
     active: true,
     productId: kralenCupcake.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dino.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dino.jpg",
     active: true,
     productId: kralenDino.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dino_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dino_size.jpg",
     active: true,
     productId: kralenDino.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dolfijn.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dolfijn.jpg",
     active: true,
     productId: kralenDolfijn.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dolfijn_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dolfijn_size.jpg",
     active: true,
     productId: kralenDolfijn.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-schaap.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-schaap.jpg",
     active: true,
     productId: kralenSchaap.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-schaap_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-schaap_size.jpg",
     active: true,
     productId: kralenSchaap.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-nijlpaard.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-nijlpaard.jpg",
     active: true,
     productId: kralenNijlpaard.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-nijlpaard_size_.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-nijlpaard_size_.jpg",
     active: true,
     productId: kralenNijlpaard.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-giraf.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-giraf.jpg",
     active: true,
     productId: kralenGiraf.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-giraf_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-giraf_size.jpg",
     active: true,
     productId: kralenGiraf.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-kraal.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-kraal.jpg",
     active: true,
     productId: kralen.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-kraal_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-kraal_size.jpg",
     active: true,
     productId: kralen.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu.jpg",
     active: true,
     productId: bijtringPinguin.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu_size.jpg",
     active: true,
     productId: bijtringPinguin.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu_size1.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu_size1.jpg",
     active: true,
     productId: bijtringPinguin.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard.jpg",
     active: true,
     productId: bijtringZeepaard.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard_size.jpg",
     active: true,
     productId: bijtringZeepaard.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard1_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard1_size.jpg",
     active: true,
     productId: bijtringZeepaard.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard1.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard1.jpg",
     active: true,
     productId: bijtringZeepaard.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/vis-pingu.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/vis-pingu.jpg",
     active: true,
     productId: bijtringPinguVis.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size.jpg",
     active: true,
     productId: bijtringPinguVis.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size1.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size1.jpg",
     active: true,
     productId: bijtringPinguVis.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size2.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size2.jpg",
     active: true,
     productId: bijtringPinguVis.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor1.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor1.jpg",
     active: true,
     productId: bijtringKonijnOren.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor_size.jpg",
     active: true,
     productId: bijtringKonijnOren.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor_size1.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor_size1.jpg",
     active: true,
     productId: bijtringKonijnOren.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-olifant/bijt-platolifant.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-olifant/bijt-platolifant.jpg",
     active: true,
     productId: bijtringOlifant.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-olifant/bijt-platolifant_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-olifant/bijt-platolifant_size.jpg",
     active: true,
     productId: bijtringOlifant.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig.jpg",
     active: true,
     productId: bijtringVliegtuig.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig_size1.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig_size1.jpg",
     active: true,
     productId: bijtringVliegtuig.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig_size2.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig_size2.jpg",
     active: true,
     productId: bijtringVliegtuig.id
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-draak/bijt-draak.jpg",
+    url: "http://haakdraak.nl/Test/afbeeldingen/bijtring-draak/bijt-draak.jpg",
     active: true,
     productId: bijtringDraak.id
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-draak/bijt-draak_size.jpg",
+      "http://haakdraak.nl/Test/afbeeldingen/bijtring-draak/bijt-draak_size.jpg",
     active: true,
     productId: bijtringDraak.id
   });
