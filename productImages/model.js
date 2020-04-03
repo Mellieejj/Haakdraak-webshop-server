@@ -8,10 +8,11 @@ const ProductImage = db.define(
       type: Sequelize.STRING,
       allowNull: false
     },
-    active: {
+    thumbnail: {
       type: Sequelize.BOOLEAN,
       allowNull: false
     }
+
   },
   {
     timestamps: false,
