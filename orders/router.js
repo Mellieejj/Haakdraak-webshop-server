@@ -1,6 +1,7 @@
 const { Router } = require("express");
 const Order = require("../orders/model");
 const Product = require("../products/model");
+const ProductImage = require("../productImages/model");
 const router = Router();
 
 router.post("/orders", async (request, response, next) => {
@@ -85,13 +86,22 @@ router.get("/orders", (request, response, next) => {
 router.get("/orders/:orderId", async (request, response, next) => {
   try {
     const order = await Order.findByPk(request.params.orderId, {
-      include: [Product],
+      include: [
+        {
+          model: Product,
+          include: [
+            { model: ProductImage,
+              where: {
+                thumbnail: true,
+              }}
+          ]
+        }
+      ]
     });
     return response.send(order);
   } catch (error) {
     console.error(error);
   }
 });
-
 
 module.exports = router;
