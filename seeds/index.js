@@ -27,10 +27,9 @@ async function seedDataBase() {
     name: "Bijtring/Rammelaar Aap Abel",
     price: "12.50",
     description:
-      "Houten bijtring van een apenkop met een rammelkraal erin. Deze aap is gemaakt van zacht knuffelgaren en katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
-    size: "12cm",
+    "Houten bijtring van een apenkop met een rammelkraal erin. Deze aap is gemaakt van zacht knuffelgaren en katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",    size: "12cm",
     optioneel:
-      "De rammelkraal kan vervangen worden door een pieper in de neus. Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
+    "De rammelkraal kan vervangen worden door een pieper in de neus. Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 1,
     categorieId: rammelaar.id,
   });
@@ -39,10 +38,10 @@ async function seedDataBase() {
     name: "Bijtring/Rammelaar Vos",
     price: "12.50",
     description:
-      "Bijtring van een vos met een staart. In het hoofdje zit een rammelkraal. Deze vos is gemaakt katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
+    "Houten bijtring van een vos met een staart. In het hoofdje zit een rammelkraal. Deze vos is gemaakt katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
     optioneel:
-      "De rammelkraal kan ook vervangen worden door een pieper in de staart. Zonder geluid is natuurlijk ook mogelijk. Veiligheids oogjes kunnen vervangen worden door borduurde slapende oogjes.",
+    "De rammelkraal kan vervangen worden door een pieper in de staart. Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
     categorieId: rammelaar.id,
   });
@@ -51,10 +50,10 @@ async function seedDataBase() {
     name: "Bijtring/Rammelaar Wasbeer",
     price: "12.50",
     description:
-      "Bijtring van een wasbeer. In het hoofdje zit een rammelkraal. Deze wasbeer is gemaakt katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
+    "Houten bijtring van een wasbeer. In het hoofdje zit een rammelkraal. Deze wasbeer is gemaakt katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
     optioneel:
-      "Deze is heel makkelijk te veranderen naar een rode panda, door de kleuren aanpassen oranjerood. Zonder geluid is natuurlijk ook mogelijk. Veiligheids oogjes kunnen vervangen worden door borduurde slapende oogjes.",
+    "Deze is heel makkelijk te veranderen naar een rode panda, door de kleuren aanpassen naar oranjerood. Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 1,
     categorieId: rammelaar.id,
   });
@@ -63,10 +62,10 @@ async function seedDataBase() {
     name: "Speenknuffel Draak",
     price: "15.00",
     description:
-      "Dit is een plat knuffeltje, waar de kleinste graag mee knuffelen en ze raken niet meer zo makkelijk het speentje kwijt. Het speentje wordt bevestigd door om het handje te vouwen en het drukkertje dicht te doen. Deze is gemaakt van zacht knuffelgaren. Ik maak gebruik van veiligheids oogjes deze bevestig ik ook goed aan de binnenkant.",
+    "Dit is een plat knuffeltje, waar de kleinste graag mee knuffelen en ze raken niet meer zo makkelijk het speentje kwijt. Het speentje wordt bevestigd door om het handje te vouwen en het drukkertje dicht te doen. Deze is gemaakt van zacht knuffelgaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "18cm",
     optioneel:
-      "Er kan een leuk knisper geluidje aan toegevoegd worden in het lijfje. Veiligheids oogjes kunnen vervangen worden door borduurde slapende oogjes.",
+    "Er kan een leuk knisper geluidje aan toegevoegd worden in het lijfje. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
     categorieId: babyOverig.id,
   });

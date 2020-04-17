@@ -1,9 +1,6 @@
 const { Router } = require("express");
 const Order = require("../orders/model");
-const OrderProducts = require("../orderProducts/model");
 const Product = require("../products/model");
-// const Product = require("../products/model")
-
 const router = Router();
 
 router.post("/orders", async (request, response, next) => {
@@ -96,16 +93,5 @@ router.get("/orders/:orderId", async (request, response, next) => {
   }
 });
 
-// router.get("/orders/:orderId", async (request, response, next) => {
-//   try {
-//     const list = await OrderProducts.findAll({
-//       where: { orderId: request.params.orderId },
-//     });
-
-//     return response.send(list);
-//   } catch (error) {
-//     console.error(error);
-//   }
-// });
 
 module.exports = router;
