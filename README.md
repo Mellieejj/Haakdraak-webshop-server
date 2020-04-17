@@ -23,6 +23,7 @@ My goals for this project are building an fullstack app I like to make, using te
 
 - Practise and improve my [git workflow](#git-workflow)
 - Try and use new technologies
+    * Many-to-many relations
 - Devlopment use user stories (make user stories too)
 
 ## Demo
@@ -40,7 +41,7 @@ My goals for this project are building an fullstack app I like to make, using te
 - As a user I can order my cart, even if the products are not in stock.
 - As a user I can add a message to my order to specify things.
 - As a user I get an email after placing an order.
-- On a project details I want to see, a suggestion of what products I can buy with that item.
+- On project details I want to see, a suggestion of what products I can buy with that item.
 - As Admin user I want to login to see all the orders and edit (change status, or add/change products)
 
 -- :computer: I'm still working on my app to improve and finish all my user stories, probaly make more features. --
@@ -51,11 +52,12 @@ My goals for this project are building an fullstack app I like to make, using te
 
 ## Used Technology
 
-I used these technologies on my Frontend side:
+I used these technologies on my Backend side:
 
 - [Express](https://github.com/Mellieejj/Haakdraak-webshop-server/blob/master/index.js)
 - [Sequelize](https://github.com/Mellieejj/Haakdraak-webshop-server/blob/master/products/model.js)
 - Postgres
+
 
 ## Git Workflow
 
