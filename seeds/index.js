@@ -203,326 +203,326 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-abel/bijt-abel.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/bijtring-abel/bijt-abel.jpg",
     thumbnail: true,
     productId: bijtringAbel.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-abel/bijtringAapAbel_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/bijtring-abel/bijtringAapAbel_size.jpg",
     thumbnail: false,
     productId: bijtringAbel.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-koala/bijt-koala.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/bijtring-koala/bijt-koala.jpg",
     thumbnail: true,
     productId: bijtringKoala.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-koala/bijtringKoala_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/bijtring-koala/bijtringKoala_size.jpg",
     thumbnail: false,
     productId: bijtringKoala.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-wasbeer/bijt-wasbeer.jpg",
+      "https://haakdraak.nl/afbeeldingen/bijtring-wasbeer/bijt-wasbeer.jpg",
     thumbnail: true,
     productId: bijtringWasbeer.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-wasbeer/bijtringWasbeer_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/bijtring-wasbeer/bijtringWasbeer_size.jpg",
     thumbnail: false,
     productId: bijtringWasbeer.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-vos/bijt-vos.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/bijtring-vos/bijt-vos.jpg",
     thumbnail: true,
     productId: bijtringVos.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-vos/bijtringVosFelix_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/bijtring-vos/bijtringVosFelix_size.jpg",
     thumbnail: false,
     productId: bijtringVos.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/huski/knuf-huski.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/huski/knuf-huski.jpg",
     thumbnail: true,
     productId: huski.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/huski/huski_size.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/huski/huski_size.jpg",
     thumbnail: false,
     productId: huski.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/speen-aap.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-aap/speen-aap.jpg",
     thumbnail: true,
     productId: speenAap.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu1_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-aap/lulu1_size.jpg",
     thumbnail: false,
     productId: speenAap.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-aap/lulu2_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-aap/lulu2_size.jpg",
     thumbnail: false,
     productId: speenAap.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-draak/speen-draak.jpg",
     thumbnail: true,
     productId: speenDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak1_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-draak/speen-draak1_size.jpg",
     thumbnail: false,
     productId: speenDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak2_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-draak/speen-draak2_size.jpg",
     thumbnail: false,
     productId: speenDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-draak/speen-draak3_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-draak/speen-draak3_size.jpg",
     thumbnail: false,
     productId: speenDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenkoord-giraf/speen-giraf.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenkoord-giraf/speen-giraf.jpg",
     thumbnail: true,
     productId: speenGiraf.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenkoord-giraf/speen-giraf_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenkoord-giraf/speen-giraf_size.jpg",
     thumbnail: false,
     productId: speenGiraf.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/aap-mike/knuf-mike.jpg",
     thumbnail: true,
     productId: mike.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike1_size.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/aap-mike/knuf-mike1_size.jpg",
     thumbnail: false,
     productId: mike.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike2_size.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/aap-mike/knuf-mike2_size.jpg",
     thumbnail: false,
     productId: mike.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/aap-mike/knuf-mike3_size.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/aap-mike/knuf-mike3_size.jpg",
     thumbnail: false,
     productId: mike.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile1.jpg",
+      "https://haakdraak.nl/afbeeldingen/smileypoppetjes/sleutel-smile1.jpg",
     thumbnail: true,
     productId: sleutelSmiley.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile2_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/smileypoppetjes/sleutel-smile2_size.jpg",
     thumbnail: false,
     productId: sleutelSmiley.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile3_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/smileypoppetjes/sleutel-smile3_size.jpg",
     thumbnail: false,
     productId: sleutelSmiley.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile4_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/smileypoppetjes/sleutel-smile4_size.jpg",
     thumbnail: false,
     productId: sleutelSmiley.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile5_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/smileypoppetjes/sleutel-smile5_size.jpg",
     thumbnail: false,
     productId: sleutelSmiley.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/smileypoppetjes/sleutel-smile6_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/smileypoppetjes/sleutel-smile6_size.jpg",
     thumbnail: false,
     productId: sleutelSmiley.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-enzo.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/sleutel-eend/sleutel-enzo.jpg",
     thumbnail: true,
     productId: sleutelEend.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-eend1_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-eend/sleutel-eend1_size.jpg",
     thumbnail: false,
     productId: sleutelEend.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-eend/sleutel-eend2_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-eend/sleutel-eend2_size.jpg",
     thumbnail: false,
     productId: sleutelEend.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pingu.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-pinguin/sleutel-pingu.jpg",
     thumbnail: true,
     productId: sleutelPinguin.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin1_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-pinguin/sleutel-pinguin1_size.jpg",
     thumbnail: false,
     productId: sleutelPinguin.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin2_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-pinguin/sleutel-pinguin2_size.jpg",
     thumbnail: false,
     productId: sleutelPinguin.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin3_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-pinguin/sleutel-pinguin3_size.jpg",
     thumbnail: false,
     productId: sleutelPinguin.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-pinguin/sleutel-pinguin4_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-pinguin/sleutel-pinguin4_size.jpg",
     thumbnail: false,
     productId: sleutelPinguin.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak.jpg",
+      "https://haakdraak.nl/afbeeldingen/knuffeldoekje-draak/doek-draak.jpg",
     thumbnail: true,
     productId: doekjeDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak1_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/knuffeldoekje-draak/doek-draak1_size.jpg",
     thumbnail: false,
     productId: doekjeDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak2_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/knuffeldoekje-draak/doek-draak2_size.jpg",
     thumbnail: false,
     productId: doekjeDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak3_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/knuffeldoekje-draak/doek-draak3_size.jpg",
     thumbnail: false,
     productId: doekjeDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/knuffeldoekje-draak/doek-draak4_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/knuffeldoekje-draak/doek-draak4_size.jpg",
     thumbnail: false,
     productId: doekjeDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-kim.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-konijn/speen-kim.jpg",
     thumbnail: true,
     productId: speenKonijn.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-konijn/speen-konijn_size.jpg",
     thumbnail: false,
     productId: speenKonijn.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn1_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-konijn/speen-konijn1_size.jpg",
     thumbnail: false,
     productId: speenKonijn.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-konijn/speen-konijn2_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-konijn/speen-konijn2_size.jpg",
     thumbnail: false,
     productId: speenKonijn.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/bijtring-koe/bijt-koe.JPG",
+    url: "https://haakdraak.nl/afbeeldingen/bijtring-koe/bijt-koe.JPG",
     thumbnail: true,
     productId: bijtringKoe.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/bijtring-koe/bijt-koe_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/bijtring-koe/bijt-koe_size.jpg",
     thumbnail: false,
     productId: bijtringKoe.id,
   });
@@ -541,14 +541,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-varken/bijt-varken.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-varken/bijt-varken.jpg",
     thumbnail: true,
     productId: bijtringVarken.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-varken/bijt-varken_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-varken/bijt-varken_size.jpg",
     thumbnail: false,
     productId: bijtringVarken.id,
   });
@@ -568,14 +568,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-draak/bijt-draak.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-draak/bijt-draak.jpg",
     thumbnail: true,
     productId: bijtringDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-draak/bijt-draak_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-draak/bijt-draak_size.jpg",
     thumbnail: false,
     productId: bijtringDraak.id,
   });
@@ -594,14 +594,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-eenhoorn/bijt-eenhoorn.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-eenhoorn/bijt-eenhoorn.jpg",
     thumbnail: true,
     productId: bijtringEenhoorn.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-eenhoorn/bijt-eenhoorn_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-eenhoorn/bijt-eenhoorn_size.jpg",
     thumbnail: false,
     productId: bijtringEenhoorn.id,
   });
@@ -620,14 +620,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-triceratops/bijt-triceratops.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-triceratops/bijt-triceratops.jpg",
     thumbnail: true,
     productId: bijtringTriceratops.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-triceratops/bijt-triceratops_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-triceratops/bijt-triceratops_size.jpg",
     thumbnail: false,
     productId: bijtringTriceratops.id,
   });
@@ -646,28 +646,28 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/vis-pingu.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-pinguin/vis-pingu.jpg",
     thumbnail: true,
     productId: bijtringPinguVis.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size.jpg",
     thumbnail: false,
     productId: bijtringPinguVis.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size1.jpg",
     thumbnail: false,
     productId: bijtringPinguVis.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size2.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-pinguin/bijt-pingu-vis_size2.jpg",
     thumbnail: false,
     productId: bijtringPinguVis.id,
   });
@@ -686,28 +686,28 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-zeepaard/bijt-zeepaard.jpg",
     thumbnail: true,
     productId: bijtringZeepaard.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-zeepaard/bijt-zeepaard_size.jpg",
     thumbnail: false,
     productId: bijtringZeepaard.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard1_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-zeepaard/bijt-zeepaard1_size.jpg",
     thumbnail: false,
     productId: bijtringZeepaard.id,
   });
 
   // ProductImage.create({
   //   url:
-  //     "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-zeepaard/bijt-zeepaard1.jpg",
+  //     "https://www.haakdraak.nl/afbeeldingen/bijtring-zeepaard/bijt-zeepaard1.jpg",
   //   thumbnail: true,
   //   productId: bijtringZeepaard.id
   // });
@@ -726,14 +726,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-hert/bijt-hert.JPG",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-hert/bijt-hert.JPG",
     thumbnail: true,
     productId: bijtringHert.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-hert/bijt-hert_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-hert/bijt-hert_size.jpg",
     thumbnail: false,
     productId: bijtringHert.id,
   });
@@ -752,21 +752,21 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-pinguin/bijt-pingu.jpg",
     thumbnail: true,
     productId: bijtringPinguin.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-pinguin/bijt-pingu_size.jpg",
     thumbnail: false,
     productId: bijtringPinguin.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-pinguin/bijt-pingu_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-pinguin/bijt-pingu_size1.jpg",
     thumbnail: false,
     productId: bijtringPinguin.id,
   });
@@ -784,21 +784,21 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig.jpg",
     thumbnail: true,
     productId: bijtringVliegtuig.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig_size1.jpg",
     thumbnail: false,
     productId: bijtringVliegtuig.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig_size2.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-vliegtuig/bijt-vliegtuig_size2.jpg",
     thumbnail: false,
     productId: bijtringVliegtuig.id,
   });
@@ -817,14 +817,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-olifant/bijt-platolifant.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-olifant/bijt-platolifant.jpg",
     thumbnail: true,
     productId: bijtringOlifant.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-olifant/bijt-platolifant_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-olifant/bijt-platolifant_size.jpg",
     thumbnail: false,
     productId: bijtringOlifant.id,
   });
@@ -843,14 +843,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-nijlpaard/bijt-nijlpaard.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-nijlpaard/bijt-nijlpaard.jpg",
     thumbnail: true,
     productId: bijtringNijlpaard.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-nijlpaard/bijt-nijlpaard_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-nijlpaard/bijt-nijlpaard_size.jpg",
     thumbnail: false,
     productId: bijtringNijlpaard.id,
   });
@@ -868,14 +868,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-gele-olifant.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/bijt-gele-olifant.jpg",
     thumbnail: true,
     productId: kralenSilOlifant.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-gele-olifant_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/bijt-gele-olifant_size.jpg",
     thumbnail: false,
     productId: kralenSilOlifant.id,
   });
@@ -894,14 +894,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-giraf.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-giraf.jpg",
     thumbnail: true,
     productId: kralenGiraf.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-giraf_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-giraf_size.jpg",
     thumbnail: false,
     productId: kralenGiraf.id,
   });
@@ -920,14 +920,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-nijlpaard.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-nijlpaard.jpg",
     thumbnail: true,
     productId: kralenNijlpaard.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-nijlpaard_size_.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-nijlpaard_size_.jpg",
     thumbnail: false,
     productId: kralenNijlpaard.id,
   });
@@ -946,14 +946,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-schaap.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-schaap.jpg",
     thumbnail: true,
     productId: kralenSchaap.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-schaap_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-schaap_size.jpg",
     thumbnail: false,
     productId: kralenSchaap.id,
   });
@@ -972,14 +972,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-vos.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-vos.jpg",
     thumbnail: true,
     productId: kralenVos.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-vos_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-vos_size.jpg",
     thumbnail: false,
     productId: kralenVos.id,
   });
@@ -998,14 +998,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-cupcake.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-cupcake.jpg",
     thumbnail: true,
     productId: kralenCupcake.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-cupcake_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-cupcake_size.jpg",
     thumbnail: false,
     productId: kralenCupcake.id,
   });
@@ -1024,14 +1024,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-pingu.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-pingu.jpg",
     thumbnail: true,
     productId: kralenPinguin.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-pingu_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-pingu_size.jpg",
     thumbnail: false,
     productId: kralenPinguin.id,
   });
@@ -1050,14 +1050,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dolfijn.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-dolfijn.jpg",
     thumbnail: true,
     productId: kralenDolfijn.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dolfijn_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-dolfijn_size.jpg",
     thumbnail: false,
     productId: kralenDolfijn.id,
   });
@@ -1076,14 +1076,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-olifant1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-olifant1.jpg",
     thumbnail: true,
     productId: kralenOlifant.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-olifant_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-olifant_size.jpg",
     thumbnail: false,
     productId: kralenOlifant.id,
   });
@@ -1102,14 +1102,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dino.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-dino.jpg",
     thumbnail: true,
     productId: kralenDino.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/kraal-dino_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-dino_size.jpg",
     thumbnail: false,
     productId: kralenDino.id,
   });
@@ -1128,14 +1128,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-kraal.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/bijt-kraal.jpg",
     thumbnail: true,
     productId: kralen.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-kralen/bijt-kraal_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/bijt-kraal_size.jpg",
     thumbnail: false,
     productId: kralen.id,
   });
@@ -1154,21 +1154,21 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor1.jpg",
     thumbnail: true,
     productId: bijtringKonijnOren.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor_size.jpg",
     thumbnail: false,
     productId: bijtringKonijnOren.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-konijn-oren/bijt-konijnoor_size1.jpg",
     thumbnail: false,
     productId: bijtringKonijnOren.id,
   });
@@ -1187,14 +1187,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/speenknuffel-koe/speen-koe_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/speenknuffel-koe/speen-koe_size.jpg",
     thumbnail: false,
     productId: speenKoe.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenknuffel-koe/speen-koe.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenknuffel-koe/speen-koe.jpg",
     thumbnail: true,
     productId: speenKoe.id,
   });
@@ -1213,14 +1213,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/speenkoord-konijn/speen-konijn.jpg",
+      "https://haakdraak.nl/afbeeldingen/speenkoord-konijn/speen-konijn.jpg",
     thumbnail: true,
     productId: speenkoordKonijn.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/speenkoord-konijn/speenkoord-konijn_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/speenkoord-konijn/speenkoord-konijn_size.jpg",
     thumbnail: false,
     productId: speenkoordKonijn.id,
   });
@@ -1238,14 +1238,14 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/mobiel-koala/mobiel-koala.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/mobiel-koala/mobiel-koala.jpg",
     thumbnail: true,
     productId: mobielKoala.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/mobiel-koala/mobiel-koala_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/mobiel-koala/mobiel-koala_size.jpg",
     thumbnail: false,
     productId: mobielKoala.id,
   });
@@ -1263,14 +1263,14 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/piep-giraf/piep-guus.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/piep-giraf/piep-guus.jpg",
     thumbnail: true,
     productId: piepGiraf.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/piep-giraf/piep-guus_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/piep-giraf/piep-guus_size.jpg",
     thumbnail: false,
     productId: piepGiraf.id,
   });
@@ -1288,41 +1288,41 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/box-guus/box-guus_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/box-guus/box-guus_size.jpg",
     thumbnail: false,
     productId: boxGiraf.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/box-guus/box-guus.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/box-guus/box-guus.jpg",
     thumbnail: true,
     productId: boxGiraf.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/box-guus/box-guus_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/box-guus/box-guus_size1.jpg",
     thumbnail: false,
     productId: boxGiraf.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/box-guus/box-guus_size2.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/box-guus/box-guus_size2.jpg",
     thumbnail: false,
     productId: boxGiraf.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/box-guus/box-guus_size3.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/box-guus/box-guus_size3.jpg",
     thumbnail: false,
     productId: boxGiraf.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/box-guus/box-guus_size4.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/box-guus/box-guus_size4.jpg",
     thumbnail: false,
     productId: boxGiraf.id,
   });
@@ -1340,42 +1340,42 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/tut-krokodil/tut-krokodil.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/tut-krokodil/tut-krokodil.jpg",
     thumbnail: true,
     productId: tutKrokodil.id,
   });
 
   // ProductImage.create({
   //   url:
-  //     "https://www.haakdraak.nl/Test/afbeeldingen/tut-krokodil/tut-krokodil1.jpg",
+  //     "https://www.haakdraak.nl/afbeeldingen/tut-krokodil/tut-krokodil1.jpg",
   //   thumbnail: true,
   //   productId: tutKrokodil.id,
   // });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/tut-krokodil/tut-krokodil_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/tut-krokodil/tut-krokodil_size.jpg",
     thumbnail: false,
     productId: tutKrokodil.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/tut-krokodil/tut-krokodil_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/tut-krokodil/tut-krokodil_size1.jpg",
     thumbnail: false,
     productId: tutKrokodil.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/tut-krokodil/tut-krokodil_size2.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/tut-krokodil/tut-krokodil_size2.jpg",
     thumbnail: false,
     productId: tutKrokodil.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/tut-krokodil/tut-krokodil_size3.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/tut-krokodil/tut-krokodil_size3.jpg",
     thumbnail: false,
     productId: tutKrokodil.id,
   });
@@ -1393,34 +1393,34 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/knuf-draakje/knuf-draakje.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/knuf-draakje/knuf-draakje.jpg",
     thumbnail: true,
     productId: knufDraak.id,
   });
 
   ProductImage.create({
-    url: "https://www.haakdraak.nl/Test/afbeeldingen/knuf-draakje/draakjes.jpg",
+    url: "https://www.haakdraak.nl/afbeeldingen/knuf-draakje/draakjes.jpg",
     thumbnail: false,
     productId: knufDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/knuf-draakje/knuf-draakje_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/knuf-draakje/knuf-draakje_size.jpg",
     thumbnail: false,
     productId: knufDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/knuf-draakje/knuf-draakje_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/knuf-draakje/knuf-draakje_size1.jpg",
     thumbnail: false,
     productId: knufDraak.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/knuf-draakje/knuf-draakje_size2.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/knuf-draakje/knuf-draakje_size2.jpg",
     thumbnail: false,
     productId: knufDraak.id,
   });
@@ -1437,28 +1437,28 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-banaan.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-banaan.jpg",
     thumbnail: true,
     productId: sleutelBanaan.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/fruit_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/fruit_size.jpg",
     thumbnail: false,
     productId: sleutelBanaan.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-banaan_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-banaan_size.jpg",
     thumbnail: false,
     productId: sleutelBanaan.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-banaan_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-banaan_size1.jpg",
     thumbnail: false,
     productId: sleutelBanaan.id,
   });
@@ -1475,21 +1475,21 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/fruit_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/fruit_size.jpg",
     thumbnail: false,
     productId: sleutelKers.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-kers.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-kers.jpg",
     thumbnail: true,
     productId: sleutelKers.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-kers_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-kers_size.jpg",
     thumbnail: false,
     productId: sleutelKers.id,
   });
@@ -1506,21 +1506,21 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-appel.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-appel.jpg",
     thumbnail: true,
     productId: sleutelAppel.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/fruit_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/fruit_size.jpg",
     thumbnail: false,
     productId: sleutelAppel.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-appel_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-appel_size.jpg",
     thumbnail: false,
     productId: sleutelAppel.id,
   });
@@ -1539,21 +1539,21 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/fruit_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/fruit_size.jpg",
     thumbnail: false,
     productId: sleutelPeer.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-peer_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-peer_size.jpg",
     thumbnail: false,
     productId: sleutelPeer.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-peer.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-peer.jpg",
     thumbnail: true,
     productId: sleutelPeer.id,
   });
@@ -1570,14 +1570,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-ananas3d.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-ananas3d.jpg",
     thumbnail: true,
     productId: sleutelAnanas3D.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-ananas3d_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-ananas3d_size.jpg",
     thumbnail: false,
     productId: sleutelAnanas3D.id,
   });
@@ -1596,14 +1596,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-ananas.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-ananas.jpg",
     thumbnail: true,
     productId: sleutelAnanas.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-fruit/sleutel-ananas_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-ananas_size.jpg",
     thumbnail: false,
     productId: sleutelAnanas.id,
   });
@@ -1621,21 +1621,21 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-spekje.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-spekje.jpg",
     thumbnail: true,
     productId: sleutelSpekje.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-spekje_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-spekje_size.jpg",
     thumbnail: false,
     productId: sleutelSpekje.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-spekje_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-spekje_size1.jpg",
     thumbnail: false,
     productId: sleutelSpekje.id,
   });
@@ -1653,28 +1653,28 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-donut2.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-donut2.jpg",
     thumbnail: true,
     productId: sleutelDonut.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-donut_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-donut_size.jpg",
     thumbnail: false,
     productId: sleutelDonut.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-donut_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-donut_size1.jpg",
     thumbnail: false,
     productId: sleutelDonut.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-donut_size2.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-donut_size2.jpg",
     thumbnail: false,
     productId: sleutelDonut.id,
   });
@@ -1692,35 +1692,35 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-2ijsje.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-2ijsje.jpg",
     thumbnail: true,
     productId: sleutelIJsje2bol.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-2ijsje_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-2ijsje_size.jpg",
     thumbnail: false,
     productId: sleutelIJsje2bol.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-2ijsje_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-2ijsje_size1.jpg",
     thumbnail: false,
     productId: sleutelIJsje2bol.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-2ijsje_size2.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-2ijsje_size2.jpg",
     thumbnail: false,
     productId: sleutelIJsje2bol.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-2ijsje_size3.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-2ijsje_size3.jpg",
     thumbnail: false,
     productId: sleutelIJsje2bol.id,
   });
@@ -1738,35 +1738,35 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-ijsje1.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-ijsje1.jpg",
     thumbnail: true,
     productId: sleutelIJsje.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-ijsje_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-ijsje_size.jpg",
     thumbnail: false,
     productId: sleutelIJsje.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-ijsje_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-ijsje_size1.jpg",
     thumbnail: false,
     productId: sleutelIJsje.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-ijsje_size2.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-ijsje_size2.jpg",
     thumbnail: false,
     productId: sleutelIJsje.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/sleutel-snack/sleutel-ijsje_size3.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-ijsje_size3.jpg",
     thumbnail: false,
     productId: sleutelIJsje.id,
   });
@@ -1784,56 +1784,56 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/kubus-leeuw/kubus-leeuw.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/kubus-leeuw/kubus-leeuw.jpg",
     thumbnail: true,
     productId: kubusLeeuw.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/kubus-leeuw/kubus-leeuw_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/kubus-leeuw/kubus-leeuw_size.jpg",
     thumbnail: false,
     productId: kubusLeeuw.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/kubus-leeuw/kubus-leeuw_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/kubus-leeuw/kubus-leeuw_size1.jpg",
     thumbnail: false,
     productId: kubusLeeuw.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/kubus-leeuw/kubus-leeuw_size2.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/kubus-leeuw/kubus-leeuw_size2.jpg",
     thumbnail: false,
     productId: kubusLeeuw.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/kubus-leeuw/kubus-leeuw_size3.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/kubus-leeuw/kubus-leeuw_size3.jpg",
     thumbnail: false,
     productId: kubusLeeuw.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/kubus-leeuw/kubus-leeuw_size4.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/kubus-leeuw/kubus-leeuw_size4.jpg",
     thumbnail: false,
     productId: kubusLeeuw.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/kubus-leeuw/kubus-leeuw_size5.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/kubus-leeuw/kubus-leeuw_size5.jpg",
     thumbnail: false,
     productId: kubusLeeuw.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/kubus-leeuw/kubus-leeuw_size6.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/kubus-leeuw/kubus-leeuw_size6.jpg",
     thumbnail: false,
     productId: kubusLeeuw.id,
   });
@@ -1851,20 +1851,20 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/handpop/hand-ezel.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/handpop/hand-ezel.jpg",
     thumbnail: true,
     productId: handEzel.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/handpop/hand-ezel_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/handpop/hand-ezel_size.jpg",
     thumbnail: false,
     productId: handEzel.id,
   });
 
   ProductImage.create({
-    url: "https://www.haakdraak.nl/Test/afbeeldingen/handpop/handpoppen.jpg",
+    url: "https://www.haakdraak.nl/afbeeldingen/handpop/handpoppen.jpg",
     thumbnail: false,
     productId: handEzel.id,
   });
@@ -1882,19 +1882,19 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/handpop/hand-koe.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/handpop/hand-koe.jpg",
     thumbnail: true,
     productId: handKoe.id,
   });
 
   ProductImage.create({
-    url: "https://www.haakdraak.nl/Test/afbeeldingen/handpop/hand-koe_size.jpg",
+    url: "https://www.haakdraak.nl/afbeeldingen/handpop/hand-koe_size.jpg",
     thumbnail: false,
     productId: handKoe.id,
   });
 
   ProductImage.create({
-    url: "https://www.haakdraak.nl/Test/afbeeldingen/handpop/handpoppen.jpg",
+    url: "https://www.haakdraak.nl/afbeeldingen/handpop/handpoppen.jpg",
     thumbnail: false,
     productId: handKoe.id,
   });
@@ -1912,28 +1912,28 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/Test/afbeeldingen/tut-eend/tut-eend.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/tut-eend/tut-eend.jpg",
     thumbnail: true,
     productId: tutEend.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/tut-eend/tut-eend_size.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/tut-eend/tut-eend_size.jpg",
     thumbnail: false,
     productId: tutEend.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/tut-eend/tut-eend_size2.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/tut-eend/tut-eend_size2.jpg",
     thumbnail: false,
     productId: tutEend.id,
   });
 
   ProductImage.create({
     url:
-      "https://www.haakdraak.nl/Test/afbeeldingen/tut-eend/tut-eend_size1.jpg",
+      "https://www.haakdraak.nl/afbeeldingen/tut-eend/tut-eend_size1.jpg",
     thumbnail: false,
     productId: tutEend.id,
   });
@@ -1952,14 +1952,14 @@ async function seedDataBase() {
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/tuimel-kikker/tuimel-kikker.jpg",
+      "https://haakdraak.nl/afbeeldingen/tuimel-kikker/tuimel-kikker.jpg",
     thumbnail: true,
     productId: tuimelKikker.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/Test/afbeeldingen/tuimel-kikker/tuimel-kikker_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/tuimel-kikker/tuimel-kikker_size.jpg",
     thumbnail: false,
     productId: tuimelKikker.id,
   });
