@@ -57,6 +57,8 @@ I used these technologies on my Backend side:
 - [Express](https://github.com/Mellieejj/Haakdraak-webshop-server/blob/master/index.js)
 - [Sequelize](https://github.com/Mellieejj/Haakdraak-webshop-server/blob/master/products/model.js)
 - Postgres
+- JWT
+- Bcrypt
 
 
 ## Git Workflow
