@@ -187,7 +187,7 @@ async function seedDataBase() {
     optioneel:
       "Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: babyOverig.id,
+    categorieId: rammelaar.id,
   });
 
   const bijtringKoe = await Product.create({
@@ -1467,7 +1467,7 @@ async function seedDataBase() {
 
   const sleutelAppel = await Product.create({
     name: "Sleutelhanger Appel",
-    price: "3.50",
+    price: "2.50",
     description: "Sleutelhanger Appel gehaakt met katoengaren.",
     size: "3cm",
     optioneel: "Sleutelring kan vervangen worden door een musketonhaakje.",
