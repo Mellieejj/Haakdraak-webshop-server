@@ -1263,7 +1263,8 @@ async function seedDataBase() {
     size: "25cm",
     optioneel:
       "Zonder rammelkraal is ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
-    categorieId: babyOverig.id,
+    stock:0,
+      categorieId: babyOverig.id,
   });
 
   ProductImage.create({
