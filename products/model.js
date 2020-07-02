@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 const db = require("../db");
-const Categorie = require("../categories/model");
+const Category = require("../categories/model");
 const Order = require("../orders/model");
 const OrderProducts = require("../orderProducts/model");
 const ProductImage = require("../productImages/model");
@@ -11,40 +11,40 @@ const Product = db.define(
     name: {
       type: Sequelize.STRING,
       allowNull: false,
-      unique: true
+      unique: true,
     },
     price: {
       type: Sequelize.STRING,
-      allowNull: false
+      allowNull: false,
     },
     description: {
       type: Sequelize.TEXT,
-      allowNull: false
+      allowNull: false,
     },
     size: {
       type: Sequelize.STRING,
-      allownNull: false
+      allownNull: false,
     },
-    optioneel: {
+    optional: {
       type: Sequelize.TEXT,
-      allowNull: false
+      allowNull: false,
     },
     stock: {
-      type: Sequelize.INTEGER
-    }
+      type: Sequelize.INTEGER,
+    },
   },
   {
     timestamps: false,
-    tableName: "products"
+    tableName: "products",
   }
 );
 
-Product.belongsTo(Categorie);
+Product.belongsTo(Category);
 
-Product.hasMany(ProductImage)
-ProductImage.belongsTo(Product)
+Product.hasMany(ProductImage);
+ProductImage.belongsTo(Product);
 
-Categorie.hasMany(Product);
+Category.hasMany(Product);
 
 Product.belongsToMany(Order, { through: OrderProducts });
 Order.belongsToMany(Product, { through: OrderProducts });

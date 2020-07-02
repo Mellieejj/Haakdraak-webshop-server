@@ -49,14 +49,14 @@ router.post("/orders", async (request, response, next) => {
       });
     } else {
       const newOrder = {
-        firstName: firstName,
-        lastName: lastName,
-        email: email,
-        street: street,
-        housenr: housenr,
-        postcode: postcode,
-        city: city,
-        opmerkingen: opmerkingen,
+        firstName,
+        lastName,
+        email,
+        street,
+        housenr,
+        postcode,
+        city,
+        opmerkingen,
       };
       const order = await Order.create(newOrder);
 

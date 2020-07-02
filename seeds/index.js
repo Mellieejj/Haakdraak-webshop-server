@@ -1,25 +1,25 @@
 const Product = require("../products/model");
-const Categorie = require("../categories/model");
+const Category = require("../categories/model");
 const ProductImage = require("../productImages/model");
 
 async function seedDataBase() {
-  const rammelaar = await Categorie.create({
+  const rammelaar = await Category.create({
     name: "Bijtringen & Rammelaars",
   });
 
-  const babyOverig = await Categorie.create({
+  const babyOverig = await Category.create({
     name: "Baby Overige",
   });
 
-  const knuffels = await Categorie.create({
+  const knuffels = await Category.create({
     name: "Knuffels",
   });
 
-  const sleutelhangers = await Categorie.create({
+  const sleutelhangers = await Category.create({
     name: "Sleutelhangers",
   });
 
-  const overige = await Categorie.create({
+  const overige = await Category.create({
     name: "Overige",
   });
 
@@ -29,10 +29,10 @@ async function seedDataBase() {
     description:
       "Houten bijtring van een apenkop met een rammelkraal erin. Deze aap is gemaakt van zacht knuffelgaren en katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "De rammelkraal kan vervangen worden door een pieper in de neus. Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   const bijtringVos = await Product.create({
@@ -41,10 +41,10 @@ async function seedDataBase() {
     description:
       "Houten bijtring van een vos met een staart. In het hoofdje zit een rammelkraal. Deze vos is gemaakt katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "De rammelkraal kan vervangen worden door een pieper in de staart. Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   const bijtringWasbeer = await Product.create({
@@ -53,10 +53,10 @@ async function seedDataBase() {
     description:
       "Houten bijtring van een wasbeer. In het hoofdje zit een rammelkraal. Deze wasbeer is gemaakt katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "Deze is heel makkelijk te veranderen naar een rode panda, door de kleuren aanpassen naar oranjerood. Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   const speenDraak = await Product.create({
@@ -65,10 +65,10 @@ async function seedDataBase() {
     description:
       "Dit is een plat knuffeltje, waar de kleinste graag mee knuffelen en ze raken niet meer zo makkelijk het speentje kwijt. Het speentje wordt bevestigd door om het handje te vouwen en het drukkertje dicht te doen. Deze is gemaakt van zacht knuffelgaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "18cm",
-    optioneel:
+    optional:
       "Er kan een leuk knisper geluidje aan toegevoegd worden in het lijfje. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   const speenGiraf = await Product.create({
@@ -77,10 +77,10 @@ async function seedDataBase() {
     description:
       "Speenkoord om een speentje aan te bevestigen. Het lusje is van waxkoord gemaakt, er zit een mooie houten speenclip op. De giraf is gehaakt met katoen",
     size: "18cm",
-    optioneel:
+    optional:
       "Er kan een rammel geluidje aan toegevoegd worden in het hoofdje.",
     stock: 1,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   const mike = await Product.create({
@@ -89,10 +89,10 @@ async function seedDataBase() {
     description:
       "Grote Aap gemaakt van een dikkere katoendraad. Zittend is deze leuke aap 30cm, liggend gemeten vanaf de voeten tot het hoofd is hij maar liefst 60cm. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "30cm",
-    optioneel:
+    optional:
       "Geluidjes, zoals piepertje, rammelkraal of knisper kan toegevoegd worden. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 1,
-    categorieId: knuffels.id,
+    categoryId: knuffels.id,
   });
 
   const huski = await Product.create({
@@ -101,10 +101,10 @@ async function seedDataBase() {
     description:
       "Huski gemaakt van een dikkere katoendraad. Liggend gemeten is hij 30cm groot en zitten ongeveer 22cm. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "22cm",
-    optioneel:
+    optional:
       "Geluidjes, zoals piepertje, rammelkraal of knisper kan toegevoegd worden. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 1,
-    categorieId: knuffels.id,
+    categoryId: knuffels.id,
   });
 
   const sleutelSmiley = await Product.create({
@@ -113,9 +113,9 @@ async function seedDataBase() {
     description:
       "Vrolijke sleutelhanger met een houten smileykraal, in het lijfje is gehaakt met katoen, er zit een houten kraal in. In bijna alle kleuren mogelijk! Vermeld bij de opmerkingen even de kleur die je wilt.",
     size: "4cm",
-    optioneel: "Musketonhaakje kan vervangen worden door een sleutelring.",
+    optional: "Musketonhaakje kan vervangen worden door een sleutelring.",
     stock: 8,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   const sleutelEend = await Product.create({
@@ -124,10 +124,10 @@ async function seedDataBase() {
     description:
       "Sleutelhanger Eend gehaakt met katoengaren. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "9cm",
-    optioneel:
+    optional:
       "Musketonhaakje kan vervangen worden door een sleutelring. Veiligheidsoogjes kunnen vervangen worden door geborduurde ^ ^ of | | oogjes.",
     stock: 0,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   const sleutelPinguin = await Product.create({
@@ -136,10 +136,10 @@ async function seedDataBase() {
     description:
       "Sleutelhanger Pinguin gehaakt met katoengaren. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "7cm",
-    optioneel:
+    optional:
       "Musketonhaakje kan vervangen worden door een sleutelring. Veiligheidsoogjes kunnen vervangen worden door geborduurde ^ ^ of | | oogjes.",
     stock: 1,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   const doekjeDraak = await Product.create({
@@ -148,10 +148,10 @@ async function seedDataBase() {
     description:
       "Dit knuffeldoekje is gehaakt met zacht knuffelgaren. Het doekje is ongeveer 35 x 35 cm. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "35cm",
-    optioneel:
+    optional:
       "Geluidjes, zoals piepertje of rammelkraal kan toegevoegd worden. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 1,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   const speenAap = await Product.create({
@@ -160,10 +160,10 @@ async function seedDataBase() {
     description:
       "Dit is een plat knuffeltje, waar de kleinste graag mee knuffelen en ze raken niet meer zo makkelijk het speentje kwijt. Het speentje wordt bevestigd door het handje om te vouwen en het drukkertje dicht te doen. Deze is gemaakt van zacht knuffelgaren en katoen. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "18cm",
-    optioneel:
+    optional:
       "Geluidjes, zoals piepertje, rammelkraal of knisper kan toegevoegd worden. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   const speenKonijn = await Product.create({
@@ -172,10 +172,10 @@ async function seedDataBase() {
     description:
       "Dit is een plat knuffeltje, waar de kleinste graag mee knuffelen en ze raken niet meer zo makkelijk het speentje kwijt. Het speentje wordt bevestigd door het handje om te vouwen en het drukkertje dicht te doen. Deze is gemaakt van zacht knuffelgaren en katoen. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "18cm",
-    optioneel:
+    optional:
       "Geluidjes, zoals piepertje, rammelkraal of knisper kan toegevoegd worden. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   const bijtringKoala = await Product.create({
@@ -184,10 +184,10 @@ async function seedDataBase() {
     description:
       "Bijtring van een koala met een rammelkraal erin. Deze koala is gemaakt van katoengaren, in de oortjes die een klein stukje zacht knuffelgaren. De bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "10cm",
-    optioneel:
+    optional:
       "Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   const bijtringKoe = await Product.create({
@@ -196,10 +196,10 @@ async function seedDataBase() {
     description:
       "Bijtring van een koeienkop met een rammelkraal erin. Deze koe is gemaakt van zacht knuffelgaren en katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "De rammelkraal kan ook vervangen worden door een pieper in de neus. Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -522,10 +522,10 @@ async function seedDataBase() {
     description:
       "Bijtring van een varkenskop met een rammelkraal erin. Dit varken is gemaakt van zacht knuffelgaren en katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -548,11 +548,11 @@ async function seedDataBase() {
     description:
       "Bijtring van een draak met een staart. Er zit een rammeltje in de staart. Deze stoere draak is gemaakt van katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "Het rammeltje kan vervangen worden voor een piepertje in de staart. Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
 
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -574,10 +574,10 @@ async function seedDataBase() {
     description:
       "Bijtring van een eenhoorn hoofd met een rammelkraal erin. Deze eenhoorn is gemaakt van katoengaren met veel vrolijke kleurtjes, de bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -600,10 +600,10 @@ async function seedDataBase() {
     description:
       "Bijtring van een  triceratops hoofd met een rammelkraal erin. Deze triceratops is gemaakt van katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -626,10 +626,10 @@ async function seedDataBase() {
     description:
       "Bijtring van een pinguïn met een vis bijtring vast. Er zit een rammelkraal in. Deze pinguïn is gemaakt van katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "10cm",
-    optioneel:
+    optional:
       "Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -665,10 +665,10 @@ async function seedDataBase() {
     description:
       "Bijtring van een zeepaardje met een rammelkraal erin. Dit zeepaardje is gemaakt van dikker katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -705,10 +705,10 @@ async function seedDataBase() {
     description:
       "Bijtring van een hertenkop met een rammelkraal erin. Dit hert is gemaakt van zacht knuffelgaren en katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -730,10 +730,10 @@ async function seedDataBase() {
     description:
       "Bijtring van een pinguïn met een rammelkraal erin en leuke wiebelpootjes. Deze pinguïn is gemaakt van katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "10cm",
-    optioneel:
+    optional:
       "In de voetjes kan ook knisper gestopt worden. Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -763,9 +763,9 @@ async function seedDataBase() {
     description:
       "Bijtring van een vliegtuig met een rammelkraal erin. Dit vliegtuig is gemaakt van katoengaren, de bijtring is van hout.",
     size: "10cm",
-    optioneel: "Zonder geluid is natuurlijk ook mogelijk.",
+    optional: "Zonder geluid is natuurlijk ook mogelijk.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -795,10 +795,10 @@ async function seedDataBase() {
     description:
       "Bijtring met een olifantje met een rammelkraal erin. Dit olifantje is gemaakt van katoengaren, de bijtring is van hout. Deze is vrij plat.",
     size: "10cm",
-    optioneel:
+    optional:
       "De rammelkraal kan vervangen worden voor knisper. Zonder geluid is natuurlijk ook mogelijk.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -821,10 +821,10 @@ async function seedDataBase() {
     description:
       "Bijtring van een nijpaardkop met een rammelkraal erin. Dit nijlpaard is gemaakt van katoengaren, de bijtring is van hout. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
-    optioneel:
+    optional:
       "Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -847,9 +847,9 @@ async function seedDataBase() {
     description:
       "Silicone olifant bijtring met kralenketting. Een aantal kralen is omhaakt met katoengaren. De kralenketting is goed bevestigd met waxkoord.",
     size: "15cm",
-    optioneel: "Dit is de enige optie van deze en de laatste.",
+    optional: "Dit is de enige optie van deze en de laatste.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -872,10 +872,10 @@ async function seedDataBase() {
     description:
       "Giraf bijtring met slierten met kralen, een omhaakte rammelkraal en 2 houten ringetjes. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
     size: "15cm",
-    optioneel:
+    optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt. De giraf is ook mogelijk met kralenketting. Zonder geluid is een optie.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -898,10 +898,10 @@ async function seedDataBase() {
     description:
       "Nijlpaard bijtring met slierten met kralen, een omhaakte rammelkraal en 2 houten ringetjes. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
     size: "15cm",
-    optioneel:
+    optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt. Het nijlpaard is ook mogelijk met kralenketting. Zonder geluid is een optie.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -924,10 +924,10 @@ async function seedDataBase() {
     description:
       "Schaap bijtring met twee kralenkettingen, een mooie bloem bijtring en een houten bijtring met de tekst 'Sweet Dreams' erop. Daarnaast zitten er kleine plastic ringetjes aan die leuke rammelen. Een aantal kralen is omhaakt met katoengaren, het schaap is van hout, de bloem is van plastic. De kralenkettingen zijn goed bevestigd met waxkoord.",
     size: "20cm",
-    optioneel:
+    optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt. De bloem bijtring en de kleine ringetjes kunnen ook in andere kleuren. Het schaap is ook mogelijk alleen met een kralenketting.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -950,10 +950,10 @@ async function seedDataBase() {
     description:
       "Vos bijtring met een kralenketting en een bloem plastic bijtring. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
     size: "13cm",
-    optioneel:
+    optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt. De bloem bijtring kan ook in andere kleuren. De vos is ook mogelijk zonder de bloem bijtring.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -975,10 +975,10 @@ async function seedDataBase() {
     description:
       "Cupcake bijtring met een kralenketting. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
     size: "9cm",
-    optioneel:
+    optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -1001,10 +1001,10 @@ async function seedDataBase() {
     description:
       "Pinguïn bijtring met een kralenketting. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
     size: "9cm",
-    optioneel:
+    optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -1027,10 +1027,10 @@ async function seedDataBase() {
     description:
       "Dolfijn bijtring met een kralenketting. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
     size: "9cm",
-    optioneel:
+    optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -1053,10 +1053,10 @@ async function seedDataBase() {
     description:
       "Olifant bijtring met een kralenketting. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
     size: "9cm",
-    optioneel:
+    optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt.",
     stock: 0,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -1079,10 +1079,10 @@ async function seedDataBase() {
     description:
       "Dino bijtring met een kralenketting. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
     size: "9cm",
-    optioneel:
+    optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -1104,10 +1104,10 @@ async function seedDataBase() {
     description:
       "Twee bijtringen met een kralenketting. Een aantal kralen is omhaakt met katoengaren, de bijtringen zijn van hout. De kralenketting is goed bevestigd met waxkoord. Doordat er twee bijtringen aan zitten maakt het ook geluid.",
     size: "12cm",
-    optioneel:
+    optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -1129,10 +1129,10 @@ async function seedDataBase() {
     description:
       "Bijtring met knisperend konijnenoren. Deze konijnen oren zijn gemaakt van katoengaren, de bijtring is van hout.",
     size: "11cm",
-    optioneel:
+    optional:
       "Het knisper kan vervangen worden door een piepertje, het oor wordt dan wel dikker. Zonder geluid is natuurlijk ook mogelijk. Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt.",
     stock: 1,
-    categorieId: rammelaar.id,
+    categoryId: rammelaar.id,
   });
 
   ProductImage.create({
@@ -1162,10 +1162,10 @@ async function seedDataBase() {
     description:
       "Dit is een plat knuffeltje, waar de kleinste graag mee knuffelen en ze raken niet meer zo makkelijk het speentje kwijt. Het speentje wordt bevestigd door om het handje te vouwen en het drukkertje dicht te doen. Deze is gemaakt van zacht knuffelgaren en katoen. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "18cm",
-    optioneel:
+    optional:
       "Geluidjes, zoals piepertje, rammelkraal of knisper kan toegevoegd worden. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   ProductImage.create({
@@ -1187,10 +1187,10 @@ async function seedDataBase() {
     description:
       "Speenkoord om een speentje aan te bevestigen. Het lusje is van waxkoord gemaakt, er zit een mooie houten speenclip op, verschillende houten kralen zijn omhaakt met katoengaren en een paar houten kralen zijn niet omhaakt. Het konijn is gehaakt met katoen. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "18cm",
-    optioneel:
+    optional:
       "Geluidjes, zoals piepertje, rammelkraal of knisper kan toegevoegd worden. Konijn kan ik in verschillende kleuren maken, natuurlijk kunnen de omhaakte kralen aangepast worden naar de kleuren die je wilt. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 1,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   ProductImage.create({
@@ -1212,10 +1212,10 @@ async function seedDataBase() {
     description:
       "Deze slapende koala mobiel is leuk voor op de babykamer. De koala en de bladeren zijn gehaakt van katoengaren, hij ligt op een mooie houten ring. Er zit een visdraad lus aan om hem aan op te hangen.",
     size: "18cm",
-    optioneel:
+    optional:
       "Geluidjes, rammelkraal of een muziekdoosje(+ €7.50) kan toegevoegd worden.",
     stock: 0,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   ProductImage.create({
@@ -1237,10 +1237,10 @@ async function seedDataBase() {
     description:
       "Leuk piepspeeltje om mee te spelen.Deze giraf is gemaakt van zacht knuffelgaren en katoengaren. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "15cm",
-    optioneel:
+    optional:
       "Het piepertje kan ook vervangen worden voor een rammelkraal. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 0,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   ProductImage.create({
@@ -1261,10 +1261,10 @@ async function seedDataBase() {
     description:
       "Leuk boxspeeltje om mee te spelen in de box, auto, kinderwagen en maxi cosi. Heeft een stevige bevestigingsring die om veel dingen heen kan. Hij heeft allerlei leuke geluidjes en bijtringen aan zijn armen hangen. Deze giraf is gemaakt van zacht knuffelgaren en katoengaren. Er zitten verschillende vrolijke plastic bijtringen, houten kralen, houten ring en een leuk belletje. In het lijfje zit een rammelkraal. Dus een hoop speelplezier. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "25cm",
-    optioneel:
+    optional:
       "Zonder rammelkraal is ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
-    stock:0,
-      categorieId: babyOverig.id,
+    stock: 0,
+    categoryId: babyOverig.id,
   });
 
   ProductImage.create({
@@ -1309,10 +1309,10 @@ async function seedDataBase() {
     description:
       "Een knuffeldoekje met een stukje stof aan de binnenkant, in het lijfje zit een knispergeluid. Dit knuffeldoekje heeft een houten bijting aan een van de pootjes zitten. De krokodil is gehaakt van katoengaren. Van de kop tot en met de staart gemeten is dit knuffeldoekje ongeveer 25cm lang.",
     size: "25cm",
-    optioneel:
+    optional:
       "Er kan een rammelkraal in het kopje gestopt worden, zonder knisper is ook mogelijk. De houten bijtring kan ook zonder tekst, of helemaal weggelaten worden.",
     stock: 0,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   ProductImage.create({
@@ -1362,10 +1362,10 @@ async function seedDataBase() {
     description:
       "Knuffel draakje, zacht knuffeltje om heerlijk mee te knuffelen. Dit draakje is gemaakt van zacht knuffelgaren. Zittend is dit draakje ongeveer 17cm groot, liggend is hij ongeveer 20cm. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant. Welke kleur heeft een draak eigenlijk?? Je eigen kleur keus is mogelijk, noem de kleur even in de opmerkingen bij je bestelling.",
     size: "17cm",
-    optioneel:
+    optional:
       "Dit draakje is ook leuk in katoengaren. Verschillende kleuren mogelijk! Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
     stock: 1,
-    categorieId: knuffels.id,
+    categoryId: knuffels.id,
   });
 
   ProductImage.create({
@@ -1406,9 +1406,9 @@ async function seedDataBase() {
     price: "7.50",
     description: "Sleutelhanger Banaan gehaakt met katoengaren.",
     size: "8cm",
-    optioneel: "Musketonhaakje kan vervangen worden door een sleutelring.",
+    optional: "Musketonhaakje kan vervangen worden door een sleutelring.",
     stock: 1,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -1442,9 +1442,9 @@ async function seedDataBase() {
     price: "3.50",
     description: "Sleutelhanger Kersen gehaakt met katoengaren.",
     size: "6cm",
-    optioneel: "Musketonhaakje kan vervangen worden door een sleutelring.",
+    optional: "Musketonhaakje kan vervangen worden door een sleutelring.",
     stock: 1,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -1471,9 +1471,9 @@ async function seedDataBase() {
     price: "2.50",
     description: "Sleutelhanger Appel gehaakt met katoengaren.",
     size: "3cm",
-    optioneel: "Sleutelring kan vervangen worden door een musketonhaakje.",
+    optional: "Sleutelring kan vervangen worden door een musketonhaakje.",
     stock: 1,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -1501,10 +1501,10 @@ async function seedDataBase() {
     description:
       "Sleutelhanger Peer gehaakt met katoengaren. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "4cm",
-    optioneel:
+    optional:
       "Veiligheidsoogjes kunnen vervangen worden door geborduurde ^ ^ of | | oogjes. Sleutelring kan vervangen worden door een musketonhaakje.",
     stock: 0,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -1531,9 +1531,9 @@ async function seedDataBase() {
     price: "3.50",
     description: "Sleutelhanger ananas gehaakt met katoengaren.",
     size: "3cm",
-    optioneel: "Sleutelring kan vervangen worden door een musketonhaakje.",
+    optional: "Sleutelring kan vervangen worden door een musketonhaakje.",
     stock: 0,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -1555,10 +1555,10 @@ async function seedDataBase() {
     description:
       "Sleutelhanger ananas met een gezichtje gehaakt met katoengaren. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
     size: "5cm",
-    optioneel:
+    optional:
       "Veiligheidsoogjes kunnen vervangen worden door borduurde ^ ^ of | | oogjes. Sleutelring kan vervangen worden door een musketonhaakje.",
     stock: 0,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -1580,9 +1580,9 @@ async function seedDataBase() {
     description:
       "Sleutelhanger spekje met een gezichtje gehaakt met katoengaren.",
     size: "9cm",
-    optioneel: "Musketonhaakje kan vervangen worden door een sleutelring.",
+    optional: "Musketonhaakje kan vervangen worden door een sleutelring.",
     stock: 1,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -1611,9 +1611,9 @@ async function seedDataBase() {
     description:
       'Sleutelhanger donut in verschillende "smaken" gehaakt met katoengaren. Deze lekkere donut kan ik in verschillende smaken maken, laat in de opmerkingen van het bestelformulier even weten welke "smaak" (beschrijving hoe die er uit ziet) je wilt.',
     size: "4cm",
-    optioneel: "Musketonhaakje kan vervangen worden door een sleutelring.",
+    optional: "Musketonhaakje kan vervangen worden door een sleutelring.",
     stock: 1,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -1649,9 +1649,9 @@ async function seedDataBase() {
     description:
       'Sleutelhanger ijsje met 2 bollen in verschillende "smaken" gehaakt met katoengaren. Dit lekkere ijs kan ik in verschillende smaken maken, laat in de opmerkingen van het bestelformulier even weten welke 2 "smaken" (kleuren) je wilt.',
     size: "4cm",
-    optioneel: "Sleutelring kan vervangen worden door een musketonhaakje.",
+    optional: "Sleutelring kan vervangen worden door een musketonhaakje.",
     stock: 0,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -1694,9 +1694,9 @@ async function seedDataBase() {
     description:
       'Sleutelhanger ijsje met 1 bol in verschillende "smaken" gehaakt met katoengaren. Dit lekkere ijs kan ik in verschillende smaken maken, laat in de opmerkingen van het bestelformulier even weten welke "smaak" (kleuren) je wilt.',
     size: "4cm",
-    optioneel: "Sleutelring kan vervangen worden door een musketonhaakje.",
+    optional: "Sleutelring kan vervangen worden door een musketonhaakje.",
     stock: 0,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -1739,10 +1739,10 @@ async function seedDataBase() {
     description:
       "Aan deze speelkubus kunnen de kleintjes heel veel ontdekken. Er zitten verschillende geluiden in, piepertje in zijn voetje en rammeltjes in zijn manen, de houten ringetjes aan zijn staart rammelen als ze tegen elkaar komen. Met de spiegel valt veel te ontdekken, de plastic bijtring is leuk om op te bijten maar je kan hem op zijn bloemenhart doen.  Ik maak gebruik van veiligheidsoogjes en neusje deze bevestig ik ook goed aan de binnenkant. De kubus is 10x10 cm, de leeuw is ongeveer 12cm groot.",
     size: "12cm",
-    optioneel:
+    optional:
       "Veiligheidsoogjes kunnen vervangen worden door slapende geborduurde oogjes, het neus kan vervangen worden door een geborduurd neusje. De plastic bijtring en bloem bijtring kunnen in andere kleuren. De kubus kan in verschillende kleuren gehaakt worden. Als je andere kleuren wilt laat dit dan even weten.",
     stock: 1,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   ProductImage.create({
@@ -1806,10 +1806,10 @@ async function seedDataBase() {
     description:
       "Handpop ezel is leuk om mee te spelen, zowel voor groot als klein. Ik maak gebruik van veiligheidsoogjes en neusje deze bevestig ik ook goed aan de binnenkant.",
     size: "20cm",
-    optioneel:
+    optional:
       "Veiligheidsoogjes kunnen vervangen worden door slapende geborduurde oogjes.",
     stock: 0,
-    categorieId: overige.id,
+    categoryId: overige.id,
   });
 
   ProductImage.create({
@@ -1836,10 +1836,10 @@ async function seedDataBase() {
     description:
       "Handpop koe is leuk om mee te spelen, zowel voor groot als klein. Ik maak gebruik van veiligheidsoogjes en neusje deze bevestig ik ook goed aan de binnenkant.",
     size: "20cm",
-    optioneel:
+    optional:
       "Veiligheidsoogjes kunnen vervangen worden door slapende geborduurde oogjes.",
     stock: 0,
-    categorieId: overige.id,
+    categoryId: overige.id,
   });
 
   ProductImage.create({
@@ -1866,10 +1866,10 @@ async function seedDataBase() {
     description:
       "Een knuffeldoekje met een stukje stof aan de binnenkant.  De eend is gehaakt van katoengaren.",
     size: "23cm",
-    optioneel:
+    optional:
       "Er kan een rammelkraal in het kopje gestopt worden en/of knisper in het lijf. Er kan een  houten bijtring aan bevestigd worden in plaats van een van de pootjes.",
     stock: 1,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   ProductImage.create({
@@ -1902,10 +1902,10 @@ async function seedDataBase() {
     description:
       "Een tuimelaar kikker, bij elke tuimel maakt de kikker geluid. De kikker is gehaakt van katoengaren, in de kikker zit een tuimelaar. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "13cm",
-    optioneel:
+    optional:
       "De veiligheidsoogjes kunnen vervangen worden door slapende geborduurde oogjes.",
     stock: 1,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   ProductImage.create({
@@ -1927,10 +1927,10 @@ async function seedDataBase() {
     description:
       "Een tutdoekje olifant met een zachte rug en een katoene buik. In zijn buik zit knisper. De olifant is gehaakt van katoengaren en zacht knuffelgaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "20cm",
-    optioneel:
+    optional:
       "Het knisper kan vervangen worden door een rammelkraal in het hoofdje. Zonder geluid is natuurlijk ook mogelijk. De veiligheidsoogjes kunnen vervangen worden door slapende geborduurde oogjes.",
     stock: 0,
-    categorieId: babyOverig.id,
+    categoryId: babyOverig.id,
   });
 
   ProductImage.create({
@@ -1969,9 +1969,9 @@ async function seedDataBase() {
     description:
       "Een puzzelbal leeuw. Deze leeuw kan in 3 delen uit elkaar gehaald worden en ook weer in elkaar gepuzzeld worden. De leeuw is gehaakt van dikker katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "15cm",
-    optioneel: "",
+    optional: "",
     stock: 1,
-    categorieId: overige.id,
+    categoryId: overige.id,
   });
 
   ProductImage.create({
@@ -2004,10 +2004,10 @@ async function seedDataBase() {
     description:
       "Een puzzelbal dino. Deze dino kan in 3 delen uit elkaar gehaald worden en ook weer in elkaar gepuzzeld worden. De dino is gehaakt van dikker katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "15cm",
-    optioneel:
+    optional:
       "Deze dino kan met en zonder stekels gemaakt worden. En in vele kleuren mogelijk. Vermeld je in de opmerkingen even welke kleuren (2) je wilt en of je met of zonder stekels wilt.",
     stock: 0,
-    categorieId: overige.id,
+    categoryId: overige.id,
   });
 
   ProductImage.create({
@@ -2046,10 +2046,10 @@ async function seedDataBase() {
     description:
       "Sleutelhanger papegaai gehaakt met katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "9cm",
-    optioneel:
+    optional:
       "Musketonhaakje kan vervangen worden door een sleutelring. Veiligheidsoogjes kunnen vervangen worden door borduurde ^ ^ of | | oogjes.",
     stock: 1,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
@@ -2078,10 +2078,10 @@ async function seedDataBase() {
     description:
       "Sleutelhanger cactus gehaakt met katoengaren. De cactus is in 3 vormen mogelijk. Formaat verschilt per cactus de grootste is 7cm.",
     size: "9cm",
-    optioneel:
+    optional:
       "Sleutelring kan vervangen worden door een musketonhaakje. Vermeld je bij de opmerkingen even welke vorm je wilt.",
     stock: 0,
-    categorieId: sleutelhangers.id,
+    categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({

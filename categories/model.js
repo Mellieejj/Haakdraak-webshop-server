@@ -1,19 +1,19 @@
 const Sequelize = require("sequelize");
 const db = require("../db");
 
-const Categorie = db.define(
-  "categorie",
+const Category = db.define(
+  "category",
   {
     name: {
       type: Sequelize.STRING,
       allowNull: false,
-      unique: true
-    }
+      unique: true,
+    },
   },
   {
     timestamps: false,
-    tableName: "categories"
+    tableName: "categories",
   }
 );
 
-module.exports = Categorie;
+module.exports = Category;
