@@ -1,18 +1,18 @@
 const { Router } = require("express");
 const Product = require("./model");
-const Categorie = require("../categories/model");
+const Category = require("../categories/model");
 const ProductImage = require("../productImages/model");
 const router = Router();
 
 router.get("/products", (request, response, next) => {
-  Product.findAll({ include: [Categorie, ProductImage] })
+  Product.findAll({ include: [Category, ProductImage] })
     .then((product) => response.json(product))
     .catch(next);
 });
 
 router.get("/products/:productId", (request, response, next) => {
   Product.findByPk(request.params.productId, {
-    include: [Categorie, ProductImage],
+    include: [Category, ProductImage],
   })
     .then((product) => {
       if (!product) {
@@ -31,30 +31,30 @@ router.post("/products", async (request, response, next) => {
       price,
       description,
       size,
-      optioneel,
+      optional,
       stock,
-      categorie,
+      category,
     } = request.body.fields;
-    
+
     const { productImages } = request.body;
 
-    if (!name || !price || !description || !size || !optioneel || !categorie) {
+    if (!name || !price || !description || !size || !optional || !category) {
       return response
         .status(400)
         .send({ message: "Niet alle velden zijn ingevuld." });
     } else {
-      const categorie_id = await Categorie.findOne({
-        where: { name: categorie },
+      const category_id = await Category.findOne({
+        where: { name: category },
       });
 
       const newProduct = {
-        name: name,
-        price: price,
-        description: description,
-        size: size,
-        optioneel: optioneel,
-        stock: stock,
-        categorieId: categorie_id.id,
+        name,
+        price,
+        description,
+        size,
+        optional,
+        stock,
+        categoryId: category_id.id,
       };
 
       const product = await Product.create(newProduct);
