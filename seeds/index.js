@@ -103,7 +103,7 @@ async function seedDataBase() {
     size: "22cm",
     optional:
       "Geluidjes, zoals piepertje, rammelkraal of knisper kan toegevoegd worden. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
-    stock: 1,
+    stock: 0,
     categoryId: knuffels.id,
   });
 
@@ -1741,7 +1741,7 @@ async function seedDataBase() {
     size: "12cm",
     optional:
       "Veiligheidsoogjes kunnen vervangen worden door slapende geborduurde oogjes, het neus kan vervangen worden door een geborduurd neusje. De plastic bijtring en bloem bijtring kunnen in andere kleuren. De kubus kan in verschillende kleuren gehaakt worden. Als je andere kleuren wilt laat dit dan even weten.",
-    stock: 1,
+    stock: 0,
     categoryId: babyOverig.id,
   });
 
@@ -2110,6 +2110,58 @@ async function seedDataBase() {
     thumbnail: false,
     productId: sleutelCactus.id,
   });
+
+  const sleutelPotlood = await Product.create({
+    name: "Sleutelhanger Potlood",
+    price: "5.00",
+    description: "Sleutelhanger potlood gehaakt met katoengaren.",
+    size: "6cm",
+    optional:
+      "Musketonhaakje kan vervangen worden door een sleutelring. Vermeld je bij de opmerkingen als je een andere kleur wilt (en welke kleuren).",
+    stock: 1,
+    categoryId: sleutelhangers.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/afbeeldingen/sleutel-potlood/sleutel-potlood.jpg",
+    thumbnail: true,
+    productId: sleutelPotlood.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/afbeeldingen/sleutel-potlood/sleutel-potlood_size.jpg",
+    thumbnail: false,
+    productId: sleutelPotlood.id,
+  });
+
+  const knufGuus = await Product.create({
+    name: "Zacht Giraf",
+    price: "25.00",
+    description:
+      "Knuffel giraf, zachte knuffel om heerlijk mee te knuffelen. Deze giraf is gemaakt van zacht knuffelgaren. Zittend is deze giraf ongeveer 35cm groot, liggend is hij ongeveer 40cm. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant. Deze giraf kan ik ook in een kleiner formaat maken, dan is hij zitten ongeveer 15cm. Als je de kleinere variant wilt vermeld dit even in de opmerkingen bij je bestelling.",
+    size: "35cm",
+    optional:
+      "Veiligheidsoogjes kunnen vervangen worden door borduurde slapende oogjes.",
+    stock: 0,
+    categoryId: knuffels.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/afbeeldingen/knuf-giraf/knuf-giraf.jpg",
+    thumbnail: true,
+    productId: knufGuus.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/afbeeldingen/knuf-giraf/knuf-giraf_size.jpg",
+    thumbnail: false,
+    productId: knufGuus.id,
+  });
+  
 }
 
 seedDataBase();
