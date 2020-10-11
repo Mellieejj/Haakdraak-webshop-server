@@ -2162,6 +2162,31 @@ async function seedDataBase() {
     productId: knufGuus.id,
   });
   
+  const sleutelEgel = await Product.create({
+    name: "Sleutelhanger Egel",
+    price: "5.00",
+    description: "Sleutelhanger potlood gehaakt met katoengaren.",
+    size: "6cm",
+    optional:
+      "Musketonhaakje kan vervangen worden door een sleutelring. Vermeld je bij de opmerkingen als je een andere kleur wilt (en welke kleuren).",
+    stock: 1,
+    categoryId: sleutelhangers.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/afbeeldingen/sleutel-potlood/sleutel-potlood.jpg",
+    thumbnail: true,
+    productId: sleutelEgel.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/afbeeldingen/sleutel-potlood/sleutel-potlood_size.jpg",
+    thumbnail: false,
+    productId: sleutelEgel.id,
+  });
+
 }
 
 seedDataBase();
