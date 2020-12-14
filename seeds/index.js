@@ -39,7 +39,7 @@ async function seedDataBase() {
     name: "Bijtring/Rammelaar Vos",
     price: "12.50",
     description:
-      "Houten bijtring van een vos met een staart. In het hoofdje zit een rammelkraal. Deze vos is gemaakt katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
+      "Houten bijtring van een vos met een staart. In het hoofdje zit een rammelkraal. Deze vos is gemaakt van katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
     optional:
       "De rammelkraal kan vervangen worden door een pieper in de staart. Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
@@ -51,7 +51,7 @@ async function seedDataBase() {
     name: "Bijtring/Rammelaar Wasbeer",
     price: "12.50",
     description:
-      "Houten bijtring van een wasbeer. In het hoofdje zit een rammelkraal. Deze wasbeer is gemaakt katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
+      "Houten bijtring van een wasbeer. In het hoofdje zit een rammelkraal. Deze wasbeer is gemaakt van katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
     size: "12cm",
     optional:
       "Deze is heel makkelijk te veranderen naar een rode panda, door de kleuren aanpassen naar oranjerood. Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
@@ -114,7 +114,7 @@ async function seedDataBase() {
       "Vrolijke sleutelhanger met een houten smileykraal, in het lijfje is gehaakt met katoen, er zit een houten kraal in. In bijna alle kleuren mogelijk! Vermeld bij de opmerkingen even de kleur die je wilt.",
     size: "4cm",
     optional: "Musketonhaakje kan vervangen worden door een sleutelring.",
-    stock: 8,
+    stock: 13,
     categoryId: sleutelhangers.id,
   });
 
@@ -550,8 +550,7 @@ async function seedDataBase() {
     size: "12cm",
     optional:
       "Het rammeltje kan vervangen worden voor een piepertje in de staart. Zonder geluid is natuurlijk ook mogelijk. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
-
-    stock: 1,
+    stock: 0,
     categoryId: rammelaar.id,
   });
 
@@ -892,6 +891,32 @@ async function seedDataBase() {
     productId: kralenGiraf.id,
   });
 
+  const bijtringLeeuw = await Product.create({
+    name: "Bijtring/Rammelaar Leeuw",
+    price: "12.50",
+    description:
+      "Houten bijtring met een leeuw. In zijn lijf zit een rammelkraal. Deze leeuw is gemaakt van katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
+    size: "12cm",
+    optional:
+      "Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes.",
+    stock: 1,
+    categoryId: rammelaar.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-leeuw/bijtring-leeuw.jpg",
+    thumbnail: true,
+    productId: bijtringLeeuw.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-leeuw/bijtring-leeuw_size.jpg",
+    thumbnail: false,
+    productId: bijtringLeeuw.id,
+  });
+
   const kralenNijlpaard = await Product.create({
     name: "Nijlpaard bijtring met kralen",
     price: "12.50",
@@ -948,11 +973,11 @@ async function seedDataBase() {
     name: "Vos bijtring met kralen",
     price: "12.50",
     description:
-      "Vos bijtring met een kralenketting en een bloem plastic bijtring. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
+      "Vos bijtring met een kralenketting en een plastic bloem bijtring. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
     size: "13cm",
     optional:
       "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt. De bloem bijtring kan ook in andere kleuren. De vos is ook mogelijk zonder de bloem bijtring.",
-    stock: 1,
+    stock: 0,
     categoryId: rammelaar.id,
   });
 
@@ -967,6 +992,57 @@ async function seedDataBase() {
       "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-vos_size.jpg",
     thumbnail: false,
     productId: kralenVos.id,
+  });
+
+  const kralenSter = await Product.create({
+    name: "Ster bijtring met kralen",
+    price: "12.50",
+    description:
+      "Ster bijtring met een kralenketting en een plastic bloem bijtring. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
+    size: "13cm",
+    optional:
+      "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt. De bloem bijtring kan ook in andere kleuren. De ster is ook mogelijk zonder de bloem bijtring.",
+    stock: 1,
+    categoryId: rammelaar.id,
+  });
+
+  ProductImage.create({
+    url: "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-ster.jpg",
+    thumbnail: true,
+    productId: kralenSter.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-ster_size.jpg",
+    thumbnail: false,
+    productId: kralenSter.id,
+  });
+
+  const kralenVlinder = await Product.create({
+    name: "Vlinder bijtring met kralen",
+    price: "12.50",
+    description:
+      "Vlinder bijtring met een kralenketting en een plastic bloem bijtring. Een aantal kralen is omhaakt met katoengaren, de bijtring is van hout. De kralenketting is goed bevestigd met waxkoord.",
+    size: "13cm",
+    optional:
+      "Deze is leuk in heel veel verschillende kleuren, laat bij opmerkingen even weten welke kleur je wilt. De bloem bijtring kan ook in andere kleuren. De vlinder is ook mogelijk zonder de bloem bijtring.",
+    stock: 1,
+    categoryId: rammelaar.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-vlinder.jpg",
+    thumbnail: true,
+    productId: kralenVlinder.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-kralen/kraal-vlinder_size.jpg",
+    thumbnail: false,
+    productId: kralenVlinder.id,
   });
 
   const kralenCupcake = await Product.create({
@@ -1156,6 +1232,57 @@ async function seedDataBase() {
     productId: bijtringKonijnOren.id,
   });
 
+  const doekjeAbel = await Product.create({
+    name: "Knuffeldoekje Aap",
+    price: "15.00",
+    description:
+      "Dit knuffeldoekje is gehaakt met zacht knuffelgaren. Het doekje is ongeveer 30 x 30 cm. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
+    size: "30cm",
+    optional:
+      "Geluidjes, zoals piepertje of rammelkraal kan toegevoegd worden. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
+    stock: 0,
+    categoryId: babyOverig.id,
+  });
+
+  ProductImage.create({
+    url: "https://www.haakdraak.nl/afbeeldingen/knuffeldoekje-aap/doek-aap.jpg",
+    thumbnail: true,
+    productId: doekjeAbel.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/knuffeldoekje-aap/doek-aap_size.jpg",
+    thumbnail: false,
+    productId: doekjeAbel.id,
+  });
+
+  const doekjeIJsbeer = await Product.create({
+    name: "Knuffeldoekje IJsbeer",
+    price: "15.00",
+    description:
+      "Dit knuffeldoekje is gehaakt met zacht knuffelgaren. Het heeft een gevuld hoofdje met een plat lijfje. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
+    size: "25cm",
+    optional:
+      "Geluidjes, zoals piepertje of rammelkraal kan toegevoegd worden. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
+    stock: 0,
+    categoryId: babyOverig.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/knuffeldoekje-ijsbeer/doek-ijsbeer.jpg",
+    thumbnail: true,
+    productId: doekjeIJsbeer.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/knuffeldoekje-ijsbeer/doek-ijsbeer_size.jpg",
+    thumbnail: false,
+    productId: doekjeIJsbeer.id,
+  });
+
   const speenKoe = await Product.create({
     name: "Speenknuffel Koe",
     price: "15.00",
@@ -1253,6 +1380,32 @@ async function seedDataBase() {
     url: "https://www.haakdraak.nl/afbeeldingen/piep-giraf/piep-guus_size.jpg",
     thumbnail: false,
     productId: piepGiraf.id,
+  });
+
+  const bijtringLewis = await Product.create({
+    name: "Bijtring/Rammelaar Leeuwenkop",
+    price: "12.50",
+    description:
+      "Houten bijtring met een leeuwenkop. In het hoofdje zit een rammelkraal. Deze leeuw is gemaakt van een combinatie acryl/katoengaren. Ik maak gebruik van veiligheidsoogjes, deze bevestig ik ook goed aan de binnenkant.",
+    size: "12cm",
+    optional:
+      "Zonder geluid is natuurlijk ook mogelijk. De oogjes kunnen vervangen worden door geborduurde slapende oogjes. Het garen kan ook van alleen katoen zijn. De manen krijgen dan geen stonewashed effect. ",
+    stock: 0,
+    categoryId: rammelaar.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-leeuw/bijtring-lewis.jpg",
+    thumbnail: true,
+    productId: bijtringLewis.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/bijtring-leeuw/bijtring-lewis_size.jpg",
+    thumbnail: false,
+    productId: bijtringLewis.id,
   });
 
   const boxGiraf = await Product.create({
@@ -1643,6 +1796,31 @@ async function seedDataBase() {
     productId: sleutelDonut.id,
   });
 
+  const sleutelDonutEenhorn = await Product.create({
+    name: "Sleutelhanger Eenhoorn Donut",
+    price: "5.00",
+    description:
+      "Sleutelhanger eenhoorn als donut gehaakt met katoengaren. Deze eenhoorn kan uit vele kleuren bestaan, laat in de opmerkingen van het bestelformulier even weten uit welke kleuren jouw eenhoorn bestaat.",
+    size: "4cm",
+    optional: "Musketonhaakje kan vervangen worden door een sleutelring.",
+    stock: 0,
+    categoryId: sleutelhangers.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-eenhoorn/sleutel-donut-eenhoorn.jpg",
+    thumbnail: true,
+    productId: sleutelDonutEenhoorn.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/sleutel-eenhoorn/sleutel-donut-eenhoorn_size.jpg",
+    thumbnail: false,
+    productId: sleutelDonutEenhoorn.id,
+  });
+
   const sleutelIJsje2bol = await Product.create({
     name: "Sleutelhanger ijsje 2 bollen",
     price: "3.00",
@@ -1868,7 +2046,7 @@ async function seedDataBase() {
     size: "23cm",
     optional:
       "Er kan een rammelkraal in het kopje gestopt worden en/of knisper in het lijf. Er kan een  houten bijtring aan bevestigd worden in plaats van een van de pootjes.",
-    stock: 1,
+    stock: 0,
     categoryId: babyOverig.id,
   });
 
@@ -2137,7 +2315,7 @@ async function seedDataBase() {
   });
 
   const knufGuus = await Product.create({
-    name: "Zacht Giraf",
+    name: "Zachte Giraf",
     price: "25.00",
     description:
       "Knuffel giraf, zachte knuffel om heerlijk mee te knuffelen. Deze giraf is gemaakt van zacht knuffelgaren. Zittend is deze giraf ongeveer 35cm groot, liggend is hij ongeveer 40cm. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant. Deze giraf kan ik ook in een kleiner formaat maken, dan is hij zitten ongeveer 15cm. Als je de kleinere variant wilt vermeld dit even in de opmerkingen bij je bestelling.",
@@ -2149,44 +2327,85 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url:
-      "https://haakdraak.nl/afbeeldingen/knuf-giraf/knuf-giraf.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/knuf-giraf/knuf-giraf.jpg",
     thumbnail: true,
     productId: knufGuus.id,
   });
 
   ProductImage.create({
-    url:
-      "https://haakdraak.nl/afbeeldingen/knuf-giraf/knuf-giraf_size.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/knuf-giraf/knuf-giraf_size.jp",
     thumbnail: false,
     productId: knufGuus.id,
   });
-  
+
   const sleutelEgel = await Product.create({
     name: "Sleutelhanger Egel",
-    price: "5.00",
-    description: "Sleutelhanger potlood gehaakt met katoengaren.",
-    size: "6cm",
+    price: "7.50",
+    description: "Sleutelhanger Egel gehaakt met katoengaren.",
+    size: "7cm",
     optional:
       "Musketonhaakje kan vervangen worden door een sleutelring. Vermeld je bij de opmerkingen als je een andere kleur wilt (en welke kleuren).",
-    stock: 1,
+    stock: 0,
+    categoryId: sleutelhangers.id,
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/afbeeldingen/sleutel-egel/sleutel-egel.jpg",
+    thumbnail: true,
+    productId: sleutelEgel.id,
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/afbeeldingen/sleutel-egel/sleutel-egel_size.jpg",
+    thumbnail: false,
+    productId: sleutelEgel.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/afbeeldingen/sleutel-egel/sleutel-egel_size1.jpg",
+    thumbnail: false,
+    productId: sleutelEgel.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/afbeeldingen/sleutel-egel/sleutel-egel_size2.jpg",
+    thumbnail: false,
+    productId: sleutelEgel.id,
+  });
+
+  const sleutelOctopus = await Product.create({
+    name: "Sleutelhanger Octopus",
+    price: "5.00",
+    description: "Sleutelhanger octopus gehaakt met katoengaren.",
+    size: "6cm",
+    optional:
+      "Musketonhaakje kan vervangen worden door een sleutelring. Vermeld je bij de opmerkingen welke kleur je wilt.",
+    stock: 2,
     categoryId: sleutelhangers.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/afbeeldingen/sleutel-potlood/sleutel-potlood.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-octopus/sleutel-octopus.jpg",
     thumbnail: true,
-    productId: sleutelEgel.id,
+    productId: sleutelOctopus.id,
   });
 
   ProductImage.create({
     url:
-      "https://haakdraak.nl/afbeeldingen/sleutel-potlood/sleutel-potlood_size.jpg",
+      "https://haakdraak.nl/afbeeldingen/sleutel-octopus/sleutel-octopus_size.jpg",
     thumbnail: false,
-    productId: sleutelEgel.id,
+    productId: sleutelOctopus.id,
   });
 
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/afbeeldingen/sleutel-octopus/sleutel-octopus_size1.jpg",
+    thumbnail: false,
+    productId: sleutelOctopus.id,
+  });
 }
 
 seedDataBase();
