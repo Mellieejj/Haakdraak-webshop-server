@@ -1796,7 +1796,7 @@ async function seedDataBase() {
     productId: sleutelDonut.id,
   });
 
-  const sleutelDonutEenhorn = await Product.create({
+  const sleutelDonutEenhoorn = await Product.create({
     name: "Sleutelhanger Eenhoorn Donut",
     price: "5.00",
     description:
