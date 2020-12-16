@@ -255,13 +255,13 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/afbeeldingen/huski/knuf-huski.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/knuf-huski/knuf-huski.jpg",
     thumbnail: true,
     productId: huski.id,
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/afbeeldingen/huski/huski_size.jpg",
+    url: "https://haakdraak.nl/afbeeldingen/knuf-huski/knuf-huski_size.jpg",
     thumbnail: false,
     productId: huski.id,
   });
@@ -565,6 +565,32 @@ async function seedDataBase() {
       "https://www.haakdraak.nl/afbeeldingen/bijtring-draak/bijt-draak_size.jpg",
     thumbnail: false,
     productId: bijtringDraak.id,
+  });
+
+  const rodePanda = await Product.create({
+    name: "Rode Panda",
+    price: "22.50",
+    description:
+      "Rode Panda gemaakt van een dikkere katoendraad. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
+    size: "30cm",
+    optional:
+      "Geluidjes, zoals piepertje, rammelkraal of knisper kan toegevoegd worden. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
+    stock: 0,
+    categoryId: knuffels.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/knuf-rode-panda/knuf-rode-panda.jpg",
+    thumbnail: true,
+    productId: rodePanda.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/knuf-rode-panda/knuf-rode-panda_size.jpg",
+    thumbnail: false,
+    productId: rodePanda.id,
   });
 
   const bijtringEenhoorn = await Product.create({
@@ -1257,6 +1283,13 @@ async function seedDataBase() {
     productId: doekjeAbel.id,
   });
 
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/knuffeldoekje-aap/doek-aap_size1.jpg",
+    thumbnail: false,
+    productId: doekjeAbel.id,
+  });
+
   const doekjeIJsbeer = await Product.create({
     name: "Knuffeldoekje IJsbeer",
     price: "15.00",
@@ -1509,6 +1542,60 @@ async function seedDataBase() {
     productId: tutKrokodil.id,
   });
 
+  const knufSnuf = await Product.create({
+    name: "Konijn",
+    price: "17.50",
+    description:
+      "Kleurrijk knuffel konijn, knuffeltje om heerlijk mee te knuffelen. Dit konijn is gemaakt van katoengaren. Zittend is het konijn ongeveer 25cm groot, liggend is hij ongeveer 35cm. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant. Welke kleuren heeft jouw konijn? Noem de kleuren van de onderdelen even in de opmerkingen bij je bestelling.",
+    size: "25cm",
+    optional:
+      "Verschillende kleuren mogelijk! Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
+    stock: 0,
+    categoryId: knuffels.id,
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/afbeeldingen/knuf-snuf/knuf-snuf.jpg",
+    thumbnail: true,
+    productId: knufSnuf.id,
+  });
+
+  ProductImage.create({
+    url: "https://www.haakdraak.nl/afbeeldingen/knuf-snuf/knuf-snuf_size.jpg",
+    thumbnail: false,
+    productId: knufSnuf.id,
+  });
+
+  ProductImage.create({
+    url: "https://www.haakdraak.nl/afbeeldingen/knuf-snuf/knuf-snuf_size1.jpg",
+    thumbnail: false,
+    productId: knufSnuf.id,
+  });
+
+  ProductImage.create({
+    url: "https://www.haakdraak.nl/afbeeldingen/knuf-snuf/knuf-snuf_size2.jpg",
+    thumbnail: false,
+    productId: knufSnuf.id,
+  });
+
+  ProductImage.create({
+    url: "https://www.haakdraak.nl/afbeeldingen/knuf-snuf/knuf-snuf_size3.jpg",
+    thumbnail: false,
+    productId: knufSnuf.id,
+  });
+
+  ProductImage.create({
+    url: "https://www.haakdraak.nl/afbeeldingen/knuf-snuf/knuf-snuf_size4.jpg",
+    thumbnail: false,
+    productId: knufSnuf.id,
+  });
+
+  ProductImage.create({
+    url: "https://www.haakdraak.nl/afbeeldingen/knuf-snuf/knuf-snuf_size5.jpg",
+    thumbnail: false,
+    productId: knufSnuf.id,
+  });
+
   const knufDraak = await Product.create({
     name: "Draakje",
     price: "15.00",
@@ -1677,6 +1764,38 @@ async function seedDataBase() {
     url: "https://haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-peer.jpg",
     thumbnail: true,
     productId: sleutelPeer.id,
+  });
+
+  const boxKrokodil = await Product.create({
+    name: "Wagenhanger Krokodil",
+    price: "17.50",
+    description:
+      "Leuk speeltje om mee te spelen in de box, auto, kinderwagen en maxi cosi. Heeft een stevige bevestigingsring die om veel dingen heen kan. Deze krokodil bestaat uit verschillende ringen als lijf, er zit een rammelring in het midden. Deze krokodil is gemaakt van katoengaren. In deze krokodil zit een plastic rammelring, houten kralen en houten ring bevestigd. Dus een hoop speelplezier. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant.",
+    size: "25cm",
+    optional:
+      "De rammelring kan vervangen worden voor een houten ring of gehaakte ring. Veiligheidsoogjes kunnen vervangen worden door geborduurde slapende oogjes.",
+    stock: 0,
+    categoryId: babyOverig.id,
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/afbeeldingen/box-krokodil/box-krokodil.jpg",
+    thumbnail: true,
+    productId: boxKrokodil.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/box-krokodil/box-krokodil_size.jpg",
+    thumbnail: false,
+    productId: boxKrokodil.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://www.haakdraak.nl/afbeeldingen/box-krokodil/box-krokodil_size1.jpg",
+    thumbnail: false,
+    productId: boxKrokodil.id,
   });
 
   const sleutelAnanas3D = await Product.create({
@@ -2333,7 +2452,7 @@ async function seedDataBase() {
   });
 
   ProductImage.create({
-    url: "https://haakdraak.nl/afbeeldingen/knuf-giraf/knuf-giraf_size.jp",
+    url: "https://haakdraak.nl/afbeeldingen/knuf-giraf/knuf-giraf_size.jpg",
     thumbnail: false,
     productId: knufGuus.id,
   });
@@ -2375,6 +2494,42 @@ async function seedDataBase() {
     productId: sleutelEgel.id,
   });
 
+  const knufAbel = await Product.create({
+    name: "Zachte Aap",
+    price: "25.00",
+    description:
+      "Knuffel aap, zachte knuffel om heerlijk mee te knuffelen. Deze aap is gemaakt van zacht knuffelgaren. Zittend is deze aap ongeveer 15cm groot, liggend is hij ongeveer 22cm. Ik maak gebruik van veiligheidsoogjes deze bevestig ik ook goed aan de binnenkant. Deze aap kan ik ook in een groter formaat maken, dan is hij zitten ongeveer 35cm. Als je de grotere variant wilt vermeld dit even in de opmerkingen bij je bestelling, prijs van de grotere aap is €25.00.",
+    size: "15cm",
+    optional:
+      "Veiligheidsoogjes kunnen vervangen worden door borduurde slapende oogjes.",
+    stock: 0,
+    categoryId: knuffels.id,
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/afbeeldingen/knuf-abel/knuf-abel.jpg",
+    thumbnail: true,
+    productId: knufAbel.id,
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/afbeeldingen/knuf-abel/knuf-abel_size.jpg",
+    thumbnail: false,
+    productId: knufAbel.id,
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/afbeeldingen/knuf-abel/knuf-abel_size1.jpg",
+    thumbnail: false,
+    productId: knufAbel.id,
+  });
+
+  ProductImage.create({
+    url: "https://haakdraak.nl/afbeeldingen/knuf-abel/knuf-abel_size2.jpg",
+    thumbnail: false,
+    productId: knufAbel.id,
+  });
+
   const sleutelOctopus = await Product.create({
     name: "Sleutelhanger Octopus",
     price: "5.00",
@@ -2396,6 +2551,13 @@ async function seedDataBase() {
   ProductImage.create({
     url:
       "https://haakdraak.nl/afbeeldingen/sleutel-octopus/sleutel-octopus_size.jpg",
+    thumbnail: false,
+    productId: sleutelOctopus.id,
+  });
+
+  ProductImage.create({
+    url:
+      "https://haakdraak.nl/afbeeldingen/sleutel-octopus/sleutel-octopus_size2.jpg",
     thumbnail: false,
     productId: sleutelOctopus.id,
   });
