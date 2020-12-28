@@ -12,7 +12,6 @@ const ProductImage = db.define(
       type: Sequelize.BOOLEAN,
       allowNull: false
     }
-
   },
   {
     timestamps: false,
