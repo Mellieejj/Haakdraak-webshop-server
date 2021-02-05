@@ -4,10 +4,26 @@ const Category = require("../categories/model");
 const ProductImage = require("../productImages/model");
 const router = Router();
 
-router.get("/products", (request, response, next) => {
-  Product.findAll({ include: [Category, ProductImage] })
-    .then((product) => response.json(product))
-    .catch(next);
+router.get("/products", async (request, response) => {
+  try {
+    const page = request.query.page;
+    const limit = 16;
+    const offset = (page - 1) * limit;
+
+    const product = await Product.findAll({
+      limit,
+      offset,
+      include: [Category, ProductImage],
+    });
+    const total = await Product.count();
+    response.json({ product, total });
+  } catch (error) {
+    console.log(error);
+  }
+
+  // Product.findAll({limit, offset, include: [Category, ProductImage] })
+  //   .then((product) => response.json(product))
+  //   .catch(next);
 });
 
 router.get("/products/:productId", (request, response, next) => {
