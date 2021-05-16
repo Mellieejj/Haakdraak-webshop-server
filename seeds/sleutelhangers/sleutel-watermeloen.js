@@ -22,14 +22,14 @@ async function sleutel() {
 
     ProductImage.create({
       url:
-        "https://haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-watermeloen.jpg",
+        "https://haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-watermeloen.jpg",
       thumbnail: true,
       productId: sleutelWatermeloen.id,
     });
 
     ProductImage.create({
       url:
-        "https://haakdraak.nl/afbeeldingen/sleutel-snack/sleutel-meloen_size.jpg",
+        "https://haakdraak.nl/afbeeldingen/sleutel-fruit/sleutel-meloen_size.jpg",
       thumbnail: false,
       productId: sleutelWatermeloen.id,
     });
