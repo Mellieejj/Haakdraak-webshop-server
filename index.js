@@ -5,7 +5,6 @@ const adminRouter = require("./adminUser/router");
 const authRouter = require("./auth/router");
 
 const cors = require("cors");
-const { request, response } = require("express");
 
 const app = express();
 
@@ -19,9 +18,7 @@ app.use(authRouter);
 app.use(productRouter);
 app.use(orderRouter);
 app.use(adminRouter);
-app.get('/bla', (req, res) => {
-  res.send("bla bla bla")
-})
+
 const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
